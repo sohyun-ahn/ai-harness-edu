@@ -1,0 +1,15 @@
+I recorded yesterday's check and today's routine in `out/2026-10-16.md`.
+
+**Yesterday (10/15):** marked as done as recommended. The log has the full 10/15 routine: squats 3×12, push-ups 3×10, dumbbell rows 3×12 and plank 3×30 seconds.
+
+**Today's routine (10/16, Fri):** shoulders and arms first, since yesterday you worked legs, chest, back and core. About 30 minutes.
+
+| Order | Exercise | Body part | Volume |
+|---|---|---|---|
+| 1 | Dumbbell shoulder press | Shoulders | 3×12 |
+| 2 | Side lateral raise | Shoulders | 3×12 |
+| 3 | Dumbbell curl | Arms | 3×12 |
+| 4 | Bench dips | Arms | 3×10 |
+
+- **Needs confirming:** 10/14 is logged as done as recommended, but there's no `out/2026-10-14.md`, so I don't know what that routine was. That day isn't counted in the 7-day body-part tally.
+- My system clock shows 2026-10-15, but I used 10/16 as you said. The existing 10/15 log matches that.

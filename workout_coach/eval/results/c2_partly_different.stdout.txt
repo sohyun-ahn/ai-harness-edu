@@ -1,0 +1,22 @@
+I recorded yesterday's check and today's routine in `out/2026-10-16.md`.
+
+**Yesterday (10/15): partly different from the recommendation**
+- Squats 3×12 and push-ups 3×10 went as recommended.
+- You did pull-ups instead of dumbbell rows. You didn't say how many sets or reps, so I marked them 「확인 필요」 (needs checking).
+- You didn't mention planks, so under the rule I recorded them as done as recommended (3×30초).
+
+**Today's routine (10/16, Fri)**
+
+| 순서 | 운동 | 부위 | 분량 |
+|---|---|---|---|
+| 1 | 덤벨 숄더 프레스 | 어깨 | 3×10 |
+| 2 | 사이드 레터럴 레이즈 | 어깨 | 3×12 |
+| 3 | 덤벨 컬 | 팔 | 3×12 |
+| 4 | 덤벨 트라이셉스 익스텐션 | 팔 | 3×12 |
+
+It should take about 30 minutes. Yesterday worked legs, chest, back and core, so today focuses on shoulders and arms, which got the least work.
+
+**확인 필요 (please confirm)**
+- **Pull-ups:** tell me the sets × reps and I'll add them to the record.
+- **10/14 is missing from the count:** the record says you did 10/14 as recommended. But there's no `out/2026-10-14.md`, which would hold that day's recommended routine. I couldn't tell which body parts it worked, so I left it out of the 7-day count.
+- **Date mismatch:** I used the date you gave, 2026-10-16. The system date shows 2026-10-15, so please check which is right.
