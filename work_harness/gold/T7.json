@@ -1,0 +1,245 @@
+{
+ "specs": {
+  "T7-01": {
+   "needs_human": false,
+   "no_price": true,
+   "amount": null,
+   "trap": "nomat"
+  },
+  "T7-02": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 24060000,
+   "trap": "none"
+  },
+  "T7-03": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 42788800,
+   "trap": "none"
+  },
+  "T7-04": {
+   "needs_human": false,
+   "no_price": true,
+   "amount": null,
+   "trap": "nomat"
+  },
+  "T7-05": {
+   "needs_human": false,
+   "no_price": true,
+   "amount": null,
+   "trap": "nomat"
+  },
+  "T7-06": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 4440000,
+   "trap": "none"
+  },
+  "T7-07": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 7400000,
+   "trap": "none"
+  },
+  "T7-08": {
+   "needs_human": true,
+   "no_price": false,
+   "amount": null,
+   "trap": "missing"
+  },
+  "T7-09": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 131000,
+   "trap": "none"
+  },
+  "T7-10": {
+   "needs_human": true,
+   "no_price": false,
+   "amount": null,
+   "trap": "conflict"
+  },
+  "T7-11": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 37000000,
+   "trap": "box"
+  },
+  "T7-12": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 13380000,
+   "trap": "box"
+  },
+  "T7-13": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 37630000,
+   "trap": "none"
+  },
+  "T7-14": {
+   "needs_human": true,
+   "no_price": false,
+   "amount": null,
+   "trap": "missing"
+  },
+  "T7-15": {
+   "needs_human": false,
+   "no_price": true,
+   "amount": null,
+   "trap": "nomat"
+  },
+  "T7-16": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 71980000,
+   "trap": "none"
+  },
+  "T7-17": {
+   "needs_human": true,
+   "no_price": false,
+   "amount": null,
+   "trap": "missing"
+  },
+  "T7-18": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 32500,
+   "trap": "none"
+  },
+  "T7-19": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 111015000,
+   "trap": "none"
+  },
+  "T7-20": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 240000,
+   "trap": "box"
+  },
+  "T7-21": {
+   "needs_human": false,
+   "no_price": true,
+   "amount": null,
+   "trap": "nomat"
+  },
+  "T7-22": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 456000,
+   "trap": "none"
+  },
+  "T7-23": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 212400000,
+   "trap": "none"
+  },
+  "T7-24": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 20600000,
+   "trap": "none"
+  },
+  "T7-25": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 2460000,
+   "trap": "none"
+  },
+  "T7-26": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 55500300,
+   "trap": "none"
+  },
+  "T7-27": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 230984000,
+   "trap": "none"
+  },
+  "T7-28": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 7095000,
+   "trap": "none"
+  },
+  "T7-29": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 111014400,
+   "trap": "none"
+  },
+  "T7-30": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 5400,
+   "trap": "none"
+  },
+  "T7-31": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 860100,
+   "trap": "none"
+  },
+  "T7-32": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 2520600,
+   "trap": "none"
+  },
+  "T7-33": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 307600,
+   "trap": "none"
+  },
+  "T7-34": {
+   "needs_human": true,
+   "no_price": false,
+   "amount": null,
+   "trap": "conflict"
+  },
+  "T7-35": {
+   "needs_human": true,
+   "no_price": false,
+   "amount": null,
+   "trap": "conflict"
+  },
+  "T7-36": {
+   "needs_human": true,
+   "no_price": false,
+   "amount": null,
+   "trap": "conflict"
+  },
+  "T7-37": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 41212000,
+   "trap": "none"
+  },
+  "T7-38": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 1110000,
+   "trap": "none"
+  },
+  "T7-39": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 4500,
+   "trap": "box"
+  },
+  "T7-40": {
+   "needs_human": false,
+   "no_price": false,
+   "amount": 120000,
+   "trap": "box"
+  }
+ },
+ "total": 1036747200
+}

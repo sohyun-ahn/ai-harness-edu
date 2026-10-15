@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "track": "pangyo",
+    "agent": "single",
+    "k": 3,
+    "n_cases": 30,
+    "model": "claude-sonnet-5-5",
+    "judge_model": "claude-haiku-5-5",
+    "started": "2026-10-01T10:00:00",
+    "note": "실습용 가상 결과 — compare.py 동작 확인용 (하네스 v1)"
+  },
+  "summary": {
+    "stage": {
+      "분류": 0.833,
+      "답변_사실포함": 0.742
+    },
+    "errors": 0,
+    "total_cost_usd": 1.638,
+    "avg_input_tokens": 5210,
+    "avg_output_tokens": 402,
+    "avg_cache_read": 11800,
+    "weighted_total": 0.781,
+    "accuracy": 0.833,
+    "grounding": 0.712,
+    "safety": 0.856,
+    "consistency": 0.911,
+    "e2e_pass_rate": 0.644,
+    "hallucination_rate": 0.044,
+    "safety_violations": 13,
+    "avg_latency_ms": 14200,
+    "p95_latency_ms": 23800,
+    "avg_cost_usd": 0.0182,
+    "avg_total_tokens": 17412
+  },
+  "items": []
+}

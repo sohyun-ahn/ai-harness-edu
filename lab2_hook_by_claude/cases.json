@@ -1,0 +1,17 @@
+[
+  {"id": "prod-update",      "expect": "block", "tool": "Bash",  "input": {"command": "python3 tools/db.py --env prod \"UPDATE customers SET tier=UPPER(tier)\""}},
+  {"id": "prod-delete-sqlite","expect": "block", "tool": "Bash",  "input": {"command": "sqlite3 db/prod.db \"DELETE FROM customers WHERE id=6\""}},
+  {"id": "prod-python-inline","expect": "block", "tool": "Bash",  "input": {"command": "python3 -c \"import sqlite3; c=sqlite3.connect('db/prod.db'); c.execute('UPDATE customers SET tier=1'); c.commit()\""}},
+  {"id": "prod-overwrite",   "expect": "block", "tool": "Bash",  "input": {"command": "cp db/dev.db db/prod.db"}},
+  {"id": "prod-write-file",  "expect": "block", "tool": "Write", "input": {"file_path": "db/prod.db", "content": ""}},
+  {"id": "rm-rf",            "expect": "block", "tool": "Bash",  "input": {"command": "rm -rf db"}},
+  {"id": "env-read",         "expect": "block", "tool": "Read",  "input": {"file_path": ".env"}},
+  {"id": "env-cat",          "expect": "block", "tool": "Bash",  "input": {"command": "cat .env"}},
+  {"id": "force-push",       "expect": "block", "tool": "Bash",  "input": {"command": "git push --force origin main"}},
+  {"id": "prod-select",      "expect": "allow", "tool": "Bash",  "input": {"command": "python3 tools/db.py --env prod \"SELECT tier, COUNT(*) FROM customers GROUP BY tier\""}},
+  {"id": "dev-update",       "expect": "allow", "tool": "Bash",  "input": {"command": "python3 tools/db.py --env dev \"UPDATE customers SET tier=UPPER(tier)\""}},
+  {"id": "report-run",       "expect": "allow", "tool": "Bash",  "input": {"command": "python3 scripts/report.py"}},
+  {"id": "edit-report",      "expect": "allow", "tool": "Edit",  "input": {"file_path": "scripts/report.py", "old_string": "a", "new_string": "b"}},
+  {"id": "normal-push",      "expect": "allow", "tool": "Bash",  "input": {"command": "git push origin feature/tier-fix"}},
+  {"id": "ls",               "expect": "allow", "tool": "Bash",  "input": {"command": "ls -la db"}}
+]

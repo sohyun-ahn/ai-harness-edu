@@ -1,0 +1,6 @@
+[Purchase Spec] Doc No. HB-SPEC-0110
+※ 가상 회사 「한빛스틸」 실습용 가상 문서
+
+Item: Bearing (베어링)   Part No.: 6312ZZ   Material: SUJ2   Q'ty: 40 EA
+Item: Bolt (볼트)        Size: M20 x 80     Material: SCM435 Q'ty: 120 EA
+Remark: 냉연 라인 정기 보수(PM) 용, 원산지 증명 필요

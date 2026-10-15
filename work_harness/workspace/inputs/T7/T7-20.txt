@@ -1,0 +1,5 @@
+[Material Spec] Doc No. HB-SPEC-720
+※ 가상 회사 「한빛스틸」 실습용 가상 문서
+
+Item: 볼트   Size: M20 x 80   Material: SCM435   Q'ty: 5 박스 (박스당 40 EA)
+

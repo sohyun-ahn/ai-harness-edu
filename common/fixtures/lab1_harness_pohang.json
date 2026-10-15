@@ -1,0 +1,172 @@
+[
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 9400,
+  "duration_api_ms": 9050,
+  "num_turns": 2,
+  "result": "{\"items\": [{\"품목\": \"강판\", \"규격\": \"9t x 2000 x 6000\", \"재질\": \"SM355A\", \"수량\": null, \"단위\": \"EA\", \"비고\": \"본문 12 EA, 표 10 EA 로 수량 불일치\"}], \"quote\": {\"lines\": [], \"total\": 0}, \"needs_human\": true}",
+  "session_id": "e6e932cf-9c1a-5c45-9246-796273bf5ce7",
+  "total_cost_usd": 0.013422,
+  "usage": {
+   "input_tokens": 4,
+   "cache_creation_input_tokens": 1180,
+   "cache_read_input_tokens": 19700,
+   "output_tokens": 205,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 205,
+    "cacheReadInputTokens": 19700,
+    "cacheCreationInputTokens": 1180,
+    "webSearchRequests": 0,
+    "costUSD": 0.013422,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "d6603ded-f15e-4be7-a722-dae69bc1e4c8"
+ },
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 9900,
+  "duration_api_ms": 9550,
+  "num_turns": 2,
+  "result": "{\"items\": [{\"품목\": \"강판\", \"규격\": \"9t x 2000 x 6000\", \"재질\": \"SM355A\", \"수량\": null, \"단위\": \"EA\", \"비고\": \"본문 12 EA, 표 10 EA 로 수량 불일치\"}], \"quote\": {\"lines\": [], \"total\": 0}, \"needs_human\": true}",
+  "session_id": "3cc4decb-96ff-591d-ac2a-00fd3827c7b6",
+  "total_cost_usd": 0.009411,
+  "usage": {
+   "input_tokens": 4,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 20880,
+   "output_tokens": 209,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 209,
+    "cacheReadInputTokens": 20880,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.009411,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "b23f4168-5bb6-4715-9edb-f85a354d320f"
+ },
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 10400,
+  "duration_api_ms": 10050,
+  "num_turns": 2,
+  "result": "{\"items\": [{\"품목\": \"강판\", \"규격\": \"9t x 2000 x 6000\", \"재질\": \"SM355A\", \"수량\": null, \"단위\": \"EA\", \"비고\": \"본문 12 EA, 표 10 EA 로 수량 불일치\"}], \"quote\": {\"lines\": [], \"total\": 0}, \"needs_human\": true}",
+  "session_id": "4ff8f098-e07c-5985-9145-1b820108e241",
+  "total_cost_usd": 0.009471,
+  "usage": {
+   "input_tokens": 4,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 20880,
+   "output_tokens": 213,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 213,
+    "cacheReadInputTokens": 20880,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.009471,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "60d610e4-dedf-40bb-b853-09c3f781c0b0"
+ },
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 10900,
+  "duration_api_ms": 10550,
+  "num_turns": 2,
+  "result": "{\"items\": [{\"품목\": \"강판\", \"규격\": \"9t x 2000 x 6000\", \"재질\": \"SM355A\", \"수량\": null, \"단위\": \"EA\", \"비고\": \"본문 12 EA, 표 10 EA 로 수량 불일치\"}], \"quote\": {\"lines\": [], \"total\": 0}, \"needs_human\": true}",
+  "session_id": "c2917f8f-c6b4-52c9-a85b-ceb216b4e006",
+  "total_cost_usd": 0.009531,
+  "usage": {
+   "input_tokens": 4,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 20880,
+   "output_tokens": 217,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 217,
+    "cacheReadInputTokens": 20880,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.009531,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "61e23c8a-2624-4682-af4e-fe05725e6fee"
+ },
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 11400,
+  "duration_api_ms": 11050,
+  "num_turns": 2,
+  "result": "{\"items\": [{\"품목\": \"강판\", \"규격\": \"9t x 2000 x 6000\", \"재질\": \"SM355A\", \"수량\": null, \"단위\": \"EA\", \"비고\": \"본문 12 EA, 표 10 EA 로 수량 불일치\"}], \"quote\": {\"lines\": [], \"total\": 0}, \"needs_human\": true}",
+  "session_id": "ebd7ca7a-dc94-583a-a24a-88d5f4266b27",
+  "total_cost_usd": 0.009591,
+  "usage": {
+   "input_tokens": 4,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 20880,
+   "output_tokens": 221,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 221,
+    "cacheReadInputTokens": 20880,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.009591,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "8039cd1c-2783-4e0b-a0e4-bcaa35cfd202"
+ }
+]

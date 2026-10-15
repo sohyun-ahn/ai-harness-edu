@@ -1,0 +1,172 @@
+[
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 5200,
+  "duration_api_ms": 4850,
+  "num_turns": 1,
+  "result": "이 문의는 **IT**와 **구매** 두 가지가 섞여 있습니다.\n\n- 노트북 교체: 보통 IT 헬프데스크나 IT 자산 담당 부서에 신청합니다.\n- 모니터(50만 원): 소액 구매이므로 부서 예산으로 구매팀 절차를 따르시면 됩니다.\n\n회사마다 다르니 사내 포털을 확인해 보세요.",
+  "session_id": "908ab012-6884-5d3a-9372-f4da64a5791b",
+  "total_cost_usd": 0.004443,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 4180,
+   "output_tokens": 212,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 212,
+    "cacheReadInputTokens": 4180,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.004443,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "0289d0d5-64b4-4ffc-aa10-895c6171933e"
+ },
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 5500,
+  "duration_api_ms": 5150,
+  "num_turns": 1,
+  "result": "분류: 구매\n\n모니터 구매는 구매 요청 절차를, 노트북 교체는 IT 부서에 따로 신청하시는 것이 일반적입니다. 금액 기준은 회사 규정을 확인하세요.",
+  "session_id": "22535f0c-4372-5288-86bf-ca1ad22bac1a",
+  "total_cost_usd": 0.003228,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 4180,
+   "output_tokens": 131,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 131,
+    "cacheReadInputTokens": 4180,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.003228,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "b12f215a-0620-46d8-9ec7-b5c911c893d8"
+ },
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 5800,
+  "duration_api_ms": 5450,
+  "num_turns": 1,
+  "result": "IT 문의로 분류합니다.\n\n1. 노트북 교체 → IT 서비스 요청\n2. 모니터 → 구매 요청(50만 원이면 팀장 결재 정도로 가능할 수 있음)\n\n정확한 기준은 담당 부서에 확인하시기 바랍니다.",
+  "session_id": "72d217df-6302-53c2-93c0-aab04d4d3d1c",
+  "total_cost_usd": 0.003783,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 4180,
+   "output_tokens": 168,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 168,
+    "cacheReadInputTokens": 4180,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.003783,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "804eaa00-6d32-4fb9-81e8-c19f0bec865e"
+ },
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 6100,
+  "duration_api_ms": 5750,
+  "num_turns": 1,
+  "result": "**분류: IT / 구매 (복합)**\n\n노트북 교체는 IT팀, 모니터 구매는 구매팀으로 각각 신청하세요. 함께 신청하면 처리가 늦어질 수 있습니다.",
+  "session_id": "e62637c7-ddd5-5254-9c08-504d39d7f672",
+  "total_cost_usd": 0.003018,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 4180,
+   "output_tokens": 117,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 117,
+    "cacheReadInputTokens": 4180,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.003018,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "486de3a8-0428-4b8b-95bf-58320ecd44e2"
+ },
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 6400,
+  "duration_api_ms": 6050,
+  "num_turns": 1,
+  "result": "분류 결과: 구매\n\n두 건 모두 장비 구입에 가까워 구매 쪽으로 분류했습니다. 노트북은 IT 부서 승인이 필요할 수 있습니다.",
+  "session_id": "41845482-bf9a-5732-a275-33c4ffa2de8e",
+  "total_cost_usd": 0.002898,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 4180,
+   "output_tokens": 109,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 109,
+    "cacheReadInputTokens": 4180,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.002898,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "3e5e5e3d-2b4f-4f39-8b68-1901c99e4a42"
+ }
+]

@@ -1,0 +1,2 @@
+# sdk_optional/ 전용 (API 키 필요). 본 실습은 표준 라이브러리만 쓴다.
+claude-agent-sdk>=0.2.0

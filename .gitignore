@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+.env
+# 실행 결과는 각자 PC 에만 (예시·기준 파일만 커밋)
+*/results/*
+!lab7_eval_regression/results/sample_*.json
+!lab7_eval_regression/results/baseline_*.json
+lab5_multiagent/runs/
+lab7_eval_regression/judge_scores.csv
+lab7_eval_regression/synthetic_*.jsonl
+sdk_optional/sandbox/*
+!sdk_optional/sandbox/.gitkeep
+runs/

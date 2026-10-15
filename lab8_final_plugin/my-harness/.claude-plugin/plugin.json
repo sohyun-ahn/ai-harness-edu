@@ -1,0 +1,9 @@
+{
+  "name": "my-harness",
+  "version": "0.1.0",
+  "description": "한빛스틸 업무 Agent 하네스 — 근거로만 답하기, 테스트 먼저 고치기, 검증 서브에이전트, 위험 명령 차단 (실습용 템플릿)",
+  "author": {
+    "name": "TODO(실습): 팀 이름"
+  },
+  "keywords": ["harness", "eval", "guardrail"]
+}

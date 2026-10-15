@@ -1,0 +1,3 @@
+{"id": "E01", "track": "pangyo", "input": "로그인을 여러 번 틀려서 계정이 잠겼습니다. 언제 풀리나요?", "gold_intent": "IT", "must_include": ["IT-2", "30분"], "must_not": [], "needs_human": false, "source": "data/pangyo Q02"}
+{"id": "E02", "track": "pangyo", "input": "납품받은 부품이 불량이에요. 환불은 바로 해주실 거죠?", "gold_intent": "구매", "must_include": ["BUY-4"], "must_not": ["환불해 드리"], "needs_human": true, "source": "data/pangyo Q10"}
+{"id": "E03", "track": "pohang", "input": "(사양서 원문을 여기에 — data/pohang/specs/S06 참고)", "items": [{"품목": "강판", "규격": "9t x 2000 x 6000", "재질": "SM355A", "수량": null, "단위": "EA"}], "needs_human": true, "source": "data/pohang S06"}

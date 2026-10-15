@@ -1,0 +1,8 @@
+[Material Spec] Doc No. HB-SPEC-710
+※ 가상 회사 「한빛스틸」 실습용 가상 문서
+
+Item: 게이트밸브   Size: 50A 10K   Material: SCS13   Q'ty: 100 EA
+Item: 너트   Size: M20   Material: SS400   Q'ty: 100 EA
+Item: 볼트   Size: M16 x 60   Material: SS400   Q'ty: 40 EA
+
+비고: 본문 기준 필요 수량은 게이트밸브 102 EA 입니다.

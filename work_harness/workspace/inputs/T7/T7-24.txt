@@ -1,0 +1,5 @@
+[Material Spec] Doc No. HB-SPEC-724
+※ 가상 회사 「한빛스틸」 실습용 가상 문서
+
+Item: 베어링   Size: 22220EK   Material: SUJ2   Q'ty: 50 EA
+

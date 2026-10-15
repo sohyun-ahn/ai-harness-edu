@@ -1,0 +1,3 @@
+# 본 실습(lab1~lab8)은 파이썬 표준 라이브러리만 쓴다 — 설치할 것 없음.
+# Claude Code(`claude`)는 따로 설치한다: labs/README.md 「준비」
+# Agent SDK 판(선택, API 키 필요): pip install -r sdk_optional/requirements.txt

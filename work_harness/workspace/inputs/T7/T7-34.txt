@@ -1,0 +1,6 @@
+[Material Spec] Doc No. HB-SPEC-734
+※ 가상 회사 「한빛스틸」 실습용 가상 문서
+
+Item: 볼트   Size: M16 x 60   Material: SS400   Q'ty: 40 EA
+
+비고: 본문 기준 필요 수량은 볼트 44 EA 입니다.

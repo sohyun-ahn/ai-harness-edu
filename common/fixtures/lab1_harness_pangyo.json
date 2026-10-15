@@ -1,0 +1,172 @@
+[
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 11800,
+  "duration_api_ms": 11450,
+  "num_turns": 3,
+  "result": "{\"intent\": \"IT\", \"reply\": \"노트북 교체는 IT 서비스 요청서로 신청합니다(IT-4). 모니터는 50만 원으로 100만 원 미만이라 부서 법인카드로 사고 7일 안에 증빙을 등록하면 됩니다(BUY-1).\", \"citations\": [\"IT-4\", \"BUY-1\"], \"needs_human\": false}",
+  "session_id": "04b4adb3-2090-5eba-bbeb-e343dbbfce0a",
+  "total_cost_usd": 0.014044,
+  "usage": {
+   "input_tokens": 4,
+   "cache_creation_input_tokens": 1210,
+   "cache_read_input_tokens": 19850,
+   "output_tokens": 236,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 236,
+    "cacheReadInputTokens": 19850,
+    "cacheCreationInputTokens": 1210,
+    "webSearchRequests": 0,
+    "costUSD": 0.014044,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "6542784c-2332-4019-8605-83c5e7634165"
+ },
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 12700,
+  "duration_api_ms": 12350,
+  "num_turns": 3,
+  "result": "{\"intent\": \"IT\", \"reply\": \"노트북 교체는 IT 서비스 요청서로 신청하세요(IT-4). 모니터(50만 원)는 100만 원 미만 소액 구매라 부서 법인카드로 구매 후 7일 안에 증빙을 등록합니다(BUY-1).\", \"citations\": [\"IT-4\", \"BUY-1\"], \"needs_human\": false}",
+  "session_id": "a2424b5f-23d3-5714-8dc3-88e6eac8e469",
+  "total_cost_usd": 0.009978,
+  "usage": {
+   "input_tokens": 5,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 21060,
+   "output_tokens": 243,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 5,
+    "outputTokens": 243,
+    "cacheReadInputTokens": 21060,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.009978,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "11d34473-4f4d-4e95-955f-fa568f567bfa"
+ },
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 13600,
+  "duration_api_ms": 13250,
+  "num_turns": 3,
+  "result": "{\"intent\": \"IT\", \"reply\": \"노트북 교체는 IT 서비스 요청서로 신청합니다(IT-4). 모니터는 50만 원으로 100만 원 미만이라 부서 법인카드로 사고 7일 안에 증빙을 등록하면 됩니다(BUY-1).\", \"citations\": [\"IT-4\", \"BUY-1\"], \"needs_human\": false}",
+  "session_id": "79a9fc70-4c1b-581a-b064-0a173cbf9d77",
+  "total_cost_usd": 0.01008,
+  "usage": {
+   "input_tokens": 4,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 21060,
+   "output_tokens": 250,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 250,
+    "cacheReadInputTokens": 21060,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.01008,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "e7447a67-a7ad-4782-ab9d-5a587b146e59"
+ },
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 14500,
+  "duration_api_ms": 14150,
+  "num_turns": 3,
+  "result": "{\"intent\": \"IT\", \"reply\": \"노트북 교체는 IT 서비스 요청서로 신청합니다(IT-4). 모니터는 50만 원으로 100만 원 미만이라 부서 법인카드로 사고 7일 안에 증빙을 등록하면 됩니다(BUY-1).\", \"citations\": [\"IT-4\", \"BUY-1\"], \"needs_human\": false}",
+  "session_id": "93f66a52-145f-58a6-916d-a95b59f4fce9",
+  "total_cost_usd": 0.010188,
+  "usage": {
+   "input_tokens": 5,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 21060,
+   "output_tokens": 257,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 5,
+    "outputTokens": 257,
+    "cacheReadInputTokens": 21060,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.010188,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "dafffc94-785d-4f1a-bcf3-01cd92a2bde9"
+ },
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 15400,
+  "duration_api_ms": 15050,
+  "num_turns": 3,
+  "result": "{\"intent\": \"IT\", \"reply\": \"노트북 교체는 IT 서비스 요청서로 신청하세요(IT-4). 모니터(50만 원)는 100만 원 미만 소액 구매라 부서 법인카드로 구매 후 7일 안에 증빙을 등록합니다(BUY-1).\", \"citations\": [\"IT-4\", \"BUY-1\"], \"needs_human\": false}",
+  "session_id": "a7aaaa6a-981c-5e32-9859-2c4d5f17ed4c",
+  "total_cost_usd": 0.01029,
+  "usage": {
+   "input_tokens": 4,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 21060,
+   "output_tokens": 264,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 264,
+    "cacheReadInputTokens": 21060,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.01029,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "4571241e-581e-476f-b8ac-189eaa2e594b"
+ }
+]

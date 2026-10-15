@@ -1,0 +1,7 @@
+[Material Spec] Doc No. HB-SPEC-735
+※ 가상 회사 「한빛스틸」 실습용 가상 문서
+
+Item: 강판   Size: 9t x 2000 x 6000   Material: SM355A   Q'ty: 8 EA
+Item: 베어링   Size: 22220EK   Material: SUJ2   Q'ty: 10 EA
+
+비고: 본문 기준 필요 수량은 강판 12 EA 입니다.

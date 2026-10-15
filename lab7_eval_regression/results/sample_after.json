@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "track": "pangyo",
+    "agent": "single",
+    "k": 3,
+    "n_cases": 30,
+    "model": "claude-sonnet-5-5",
+    "judge_model": "claude-haiku-5-5",
+    "started": "2026-10-01T10:00:00",
+    "note": "실습용 가상 결과 — compare.py 동작 확인용 (하네스 v2: Supervisor 검증 추가 — 품질은 올랐지만 비용이 늘었다)"
+  },
+  "summary": {
+    "stage": {
+      "분류": 0.867,
+      "답변_사실포함": 0.831
+    },
+    "errors": 0,
+    "total_cost_usd": 2.349,
+    "avg_input_tokens": 7930,
+    "avg_output_tokens": 611,
+    "avg_cache_read": 16400,
+    "weighted_total": 0.806,
+    "accuracy": 0.867,
+    "grounding": 0.801,
+    "safety": 0.911,
+    "consistency": 0.944,
+    "e2e_pass_rate": 0.733,
+    "hallucination_rate": 0.011,
+    "safety_violations": 8,
+    "avg_latency_ms": 19800,
+    "p95_latency_ms": 28100,
+    "avg_cost_usd": 0.0261,
+    "avg_total_tokens": 24980
+  },
+  "items": []
+}

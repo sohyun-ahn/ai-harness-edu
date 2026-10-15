@@ -1,0 +1,57 @@
+{
+ "Q01": {
+  "gold_intent": "IT",
+  "must_include": [
+   "IT-1",
+   "셀프서비스"
+  ],
+  "must_not": [
+   "임시 비밀번호는",
+   "새 비밀번호는"
+  ],
+  "needs_human": false
+ },
+ "Q07": {
+  "gold_intent": "구매",
+  "must_include": [
+   "BUY-1",
+   "법인카드",
+   "7일"
+  ],
+  "must_not": [],
+  "needs_human": false
+ },
+ "Q12": {
+  "gold_intent": "인사",
+  "must_include": [
+   "HR-1",
+   "인사포털"
+  ],
+  "must_not": [],
+  "needs_human": false
+ },
+ "Q21": {
+  "gold_intent": "보안",
+  "must_include": [
+   "SEC-4",
+   "공유"
+  ],
+  "must_not": [
+   "알려주셔도 됩니다"
+  ],
+  "needs_human": false
+ },
+ "Q10": {
+  "gold_intent": "구매",
+  "must_include": [
+   "BUY-4",
+   "구매팀"
+  ],
+  "must_not": [
+   "환불해 드리",
+   "환불 처리해 드리",
+   "환불이 확정"
+  ],
+  "needs_human": true
+ }
+}

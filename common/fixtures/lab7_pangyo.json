@@ -1,0 +1,3122 @@
+{
+ "Q01": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 셀프서비스 관련 절차를 따르세요. (IT-1)\", \"citations\": [\"IT-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "a6b6edeb-6e89-49d0-ac3c-f96001dc3473"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 셀프서비스 관련 절차를 따르세요. (IT-1)\", \"citations\": [\"IT-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "2915f939-8b92-4ff1-8ba2-5485c099bc3a"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 셀프서비스 관련 절차를 따르세요. (IT-1)\", \"citations\": [\"IT-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "59b17180-16a7-4e2b-91a5-78ce664b07be"
+  }
+ ],
+ "Q02": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 30분 관련 절차를 따르세요. (IT-2)\", \"citations\": [\"IT-2\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "3dc3ebf6-a295-4478-95f8-66dd2a6ea05f"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 30분 관련 절차를 따르세요. (IT-2)\", \"citations\": [\"IT-2\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "69e52fa1-caeb-4b96-af92-0eef3acfaaa2"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 30분 관련 절차를 따르세요. (IT-2)\", \"citations\": [\"IT-2\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "d592dc8f-e000-4236-bdb4-c0437f53b521"
+  }
+ ],
+ "Q03": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 팀장 승인 관련 절차를 따르세요. 3일 관련 절차를 따르세요. (IT-3)\", \"citations\": [\"IT-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "59078a14-794a-4bc6-8a71-9d3973c73386"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"승인 절차를 따르세요. (IT-3)\", \"citations\": [\"IT-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "59d60cc5-b511-4e52-899c-0214a93a366b"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 팀장 승인 관련 절차를 따르세요. 3일 관련 절차를 따르세요. (IT-3)\", \"citations\": [\"IT-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "26c25b8b-57ab-48ac-ab53-5de4aea6e6d8"
+  }
+ ],
+ "Q04": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 4년 관련 절차를 따르세요. (IT-4) (IT-9)\", \"citations\": [\"IT-4\", \"IT-9\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "b3d33bf0-20af-49bd-ac5b-27cb558c2ab2"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 4년 관련 절차를 따르세요. (IT-4)\", \"citations\": [\"IT-4\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "a6fb53b7-a673-4d66-9186-f5f91356197e"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 4년 관련 절차를 따르세요. (IT-4)\", \"citations\": [\"IT-4\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "e37e0fcc-eef8-4aa7-b60a-4a888760de6c"
+  }
+ ],
+ "Q05": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 재설치 관련 절차를 따르세요. (IT-5)\", \"citations\": [\"IT-5\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "c756d51d-3d69-4b50-aec9-829934d9ef2b"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 재설치 관련 절차를 따르세요. (IT-5)\", \"citations\": [\"IT-5\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "40ef259e-b7a2-42de-9148-2053f711586c"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"기타\", \"reply\": \"안내드립니다. 재설치 관련 절차를 따르세요. (IT-5)\", \"citations\": [\"IT-5\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "4cd3081a-fba8-4a9a-ab44-a2a3479fb209"
+  }
+ ],
+ "Q06": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 팀장 승인 관련 절차를 따르세요. 100GB 관련 절차를 따르세요. (IT-6)\", \"citations\": [\"IT-6\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "695a26f1-e0f4-49b2-a325-0633beadbc3e"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 팀장 승인 관련 절차를 따르세요. 100GB 관련 절차를 따르세요. (IT-6)\", \"citations\": [\"IT-6\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "7da37e18-28c8-418a-9c43-3036e262696e"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다. 팀장 승인 관련 절차를 따르세요. 100GB 관련 절차를 따르세요. (IT-6)\", \"citations\": [\"IT-6\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "4215ef47-a52a-49ad-aba8-6f1eaf9233ae"
+  }
+ ],
+ "Q07": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다. 법인카드 관련 절차를 따르세요. 7일 관련 절차를 따르세요. (BUY-1)\", \"citations\": [\"BUY-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "8a2d29df-0d26-4929-a662-e9c81ce6a622"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다. 법인카드 관련 절차를 따르세요. 7일 관련 절차를 따르세요. (BUY-1)\", \"citations\": [\"BUY-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "4101d0eb-c4d3-4c20-b745-9f10e71eb32c"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다. 법인카드 관련 절차를 따르세요. 7일 관련 절차를 따르세요. (BUY-1)\", \"citations\": [\"BUY-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "7ce8db96-8028-4cb3-a318-8d733381a1a5"
+  }
+ ],
+ "Q08": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다. PR 관련 절차를 따르세요. 5일 관련 절차를 따르세요. (BUY-2)\", \"citations\": [\"BUY-2\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "bf0c31a6-62ce-4455-885c-795f139bf93e"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다. PR 관련 절차를 따르세요. 5일 관련 절차를 따르세요. (BUY-2)\", \"citations\": [\"BUY-2\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "3bb8e95d-1250-41a4-855f-3ab61f3a6637"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다. PR 관련 절차를 따르세요. 5일 관련 절차를 따르세요. (BUY-2)\", \"citations\": [\"BUY-2\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "8037b655-0c55-46b2-a879-08fda16091fe"
+  }
+ ],
+ "Q09": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다. 사업자등록증 관련 절차를 따르세요. 10일 관련 절차를 따르세요. (BUY-3)\", \"citations\": [\"BUY-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "ac216cbf-34a7-4570-9c18-3ddb6108c512"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다. 사업자등록증 관련 절차를 따르세요. 10일 관련 절차를 따르세요. (BUY-3)\", \"citations\": [\"BUY-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "71aa0320-d042-4043-8af0-149647982988"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다. 사업자등록증 관련 절차를 따르세요. 10일 관련 절차를 따르세요. (BUY-3)\", \"citations\": [\"BUY-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "605095b7-dfaa-4d20-9ffc-5f00de2b7e3d"
+  }
+ ],
+ "Q10": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다. 구매팀 관련 절차를 따르세요. (BUY-4)\", \"citations\": [\"BUY-4\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "01282573-48e8-4b7a-b9ab-928f7bcb0496"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"불량이 확인되면 환불해 드리겠습니다. (BUY-4)\", \"citations\": [\"BUY-4\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "57ee0a46-a098-4b84-93a3-757dd1119a2e"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다. 구매팀 관련 절차를 따르세요. (BUY-4)\", \"citations\": [\"BUY-4\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "4e42374c-4f7b-43a3-9b1b-ca630bf29ee0"
+  }
+ ],
+ "Q11": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다. 24시간 관련 절차를 따르세요. (BUY-5)\", \"citations\": [\"BUY-5\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "2a19b996-7b09-44a5-8565-a3060ea1a357"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다. 24시간 관련 절차를 따르세요. (BUY-5)\", \"citations\": [\"BUY-5\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "a5adf03c-c521-4735-85fb-2e83301fb76e"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다. 24시간 관련 절차를 따르세요. (BUY-5)\", \"citations\": [\"BUY-5\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "6dd44471-93ca-43fe-8321-9ec64f97b500"
+  }
+ ],
+ "Q12": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 인사포털 관련 절차를 따르세요. (HR-1)\", \"citations\": [\"HR-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "fa52f3bf-40a5-41c1-aea6-09d8e62cad7d"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 인사포털 관련 절차를 따르세요. (HR-1)\", \"citations\": [\"HR-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "e6927620-2f08-4c8b-bc2e-a3025e459c0f"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 인사포털 관련 절차를 따르세요. (HR-1)\", \"citations\": [\"HR-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "4bcfc4f3-0081-4eab-a7df-2ba3a3995002"
+  }
+ ],
+ "Q13": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 2일 관련 절차를 따르세요. (HR-2)\", \"citations\": [\"HR-2\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "678e9631-a77f-4dfd-94d0-9c92971dc5fb"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 2일 관련 절차를 따르세요. (HR-2)\", \"citations\": [\"HR-2\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "1d77121d-3830-43a1-bac2-004d83495655"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 2일 관련 절차를 따르세요. (HR-2)\", \"citations\": [\"HR-2\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "5c1d3f74-c2dc-4684-80aa-eb7db4d5d437"
+  }
+ ],
+ "Q14": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 인사포털 관련 절차를 따르세요. (HR-3)\", \"citations\": [\"HR-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "18daeb28-1d7d-4adc-a45e-5e81b0a0519f"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 인사포털 관련 절차를 따르세요. (HR-3)\", \"citations\": [\"HR-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "223d3bde-62b1-4ca5-8789-fd5bb6aaa076"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 인사포털 관련 절차를 따르세요. (HR-3)\", \"citations\": [\"HR-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "05370b0c-016b-43a7-a972-7a10e769d104"
+  }
+ ],
+ "Q15": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 5일 관련 절차를 따르세요. (HR-4)\", \"citations\": [\"HR-4\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "2d6602f7-35fd-4229-9b67-32072f8ab66d"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 5일 관련 절차를 따르세요. (HR-4)\", \"citations\": [\"HR-4\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "436bf482-ec26-4256-a12b-b1d611808ecc"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 5일 관련 절차를 따르세요. (HR-4)\", \"citations\": [\"HR-4\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "5dde218e-79cc-4279-8f7d-30abfc432db7"
+  }
+ ],
+ "Q16": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 200만 원 관련 절차를 따르세요. 사전 신청 관련 절차를 따르세요. (HR-5)\", \"citations\": [\"HR-5\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "e41e2f72-d7ab-49e3-b9e5-e476afffb4a6"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 200만 원 관련 절차를 따르세요. 사전 신청 관련 절차를 따르세요. (HR-5)\", \"citations\": [\"HR-5\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "99dc19a3-1789-46bf-be12-7488d81abbc4"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 200만 원 관련 절차를 따르세요. 사전 신청 관련 절차를 따르세요. (HR-5)\", \"citations\": [\"HR-5\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "7bf9c270-e03a-4d30-ba53-62298fcf7d23"
+  }
+ ],
+ "Q17": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 고충 관련 절차를 따르세요. (HR-6)\", \"citations\": [\"HR-6\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "01ba4e1a-9d2d-4579-b214-ac0a91595f04"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 고충 관련 절차를 따르세요. (HR-6)\", \"citations\": [\"HR-6\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "02d80388-3782-418a-ae35-d05e5c2e22af"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"인사\", \"reply\": \"안내드립니다. 고충 관련 절차를 따르세요. (HR-6)\", \"citations\": [\"HR-6\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "6b8ab2d3-04de-42d6-b96c-9137f9933e18"
+  }
+ ],
+ "Q18": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 예외 승인 관련 절차를 따르세요. (SEC-1)\", \"citations\": [\"SEC-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "66b70669-420e-4739-b6ff-446d9f21e020"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 예외 승인 관련 절차를 따르세요. (SEC-1)\", \"citations\": [\"SEC-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "571cee2a-e7a6-4da0-b146-6af13587f60d"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 예외 승인 관련 절차를 따르세요. (SEC-1)\", \"citations\": [\"SEC-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "d8418910-e4d8-4555-b614-cfbf8de9ab77"
+  }
+ ],
+ "Q19": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 네트워크 관련 절차를 따르세요. 7777 관련 절차를 따르세요. (SEC-2)\", \"citations\": [\"SEC-2\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "b29a2d3e-5b98-46ef-b344-169260bdede1"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 네트워크 관련 절차를 따르세요. 7777 관련 절차를 따르세요. (SEC-2)\", \"citations\": [\"SEC-2\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "f0be6ff6-4757-451c-874c-be90b0a0d8d8"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 네트워크 관련 절차를 따르세요. 7777 관련 절차를 따르세요. (SEC-2)\", \"citations\": [\"SEC-2\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "846907f2-e955-46c7-b24e-39f54a372684"
+  }
+ ],
+ "Q20": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 반출 승인 관련 절차를 따르세요. (SEC-3)\", \"citations\": [\"SEC-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "9cd1e6eb-58c7-498c-b04a-ce22d2ee4d97"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 반출 승인 관련 절차를 따르세요. (SEC-3)\", \"citations\": [\"SEC-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "eff88ccd-1184-4901-af4a-763836d66442"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 반출 승인 관련 절차를 따르세요. (SEC-3)\", \"citations\": [\"SEC-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "f3a1d3d1-11c4-4908-9e54-91e535efdeac"
+  }
+ ],
+ "Q21": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 공유 관련 절차를 따르세요. (SEC-4)\", \"citations\": [\"SEC-4\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "6fe7763c-b2e8-4487-af6e-68a54aa93050"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 공유 관련 절차를 따르세요. (SEC-4)\", \"citations\": [\"SEC-4\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "e1ce2f4e-744f-4af8-8424-c71f49c4dc3a"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 공유 관련 절차를 따르세요. (SEC-4)\", \"citations\": [\"SEC-4\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "7e037ddc-0cb1-4e59-8434-1050cc92490e"
+  }
+ ],
+ "Q22": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 7777 관련 절차를 따르세요. (SEC-5)\", \"citations\": [\"SEC-5\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "2a337fe4-c8ce-41c3-a18a-2f840987c80d"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 7777 관련 절차를 따르세요. (SEC-5)\", \"citations\": [\"SEC-5\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "ec23cc6b-f65d-4d42-9092-c5a18d9ccc78"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다. 7777 관련 절차를 따르세요. (SEC-5)\", \"citations\": [\"SEC-5\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "cfe1f84a-5c51-4ae9-bb0c-c033278b59f8"
+  }
+ ],
+ "Q23": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"기타\", \"reply\": \"안내드립니다. 그룹웨어 관련 절차를 따르세요. (GEN-1)\", \"citations\": [\"GEN-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "9df45f18-bab0-4352-bf53-558b2e08457a"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"기타\", \"reply\": \"안내드립니다. 그룹웨어 관련 절차를 따르세요. (GEN-1)\", \"citations\": [\"GEN-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "4a70b505-4efc-468f-ac8d-8295e43670d5"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"기타\", \"reply\": \"안내드립니다. 그룹웨어 관련 절차를 따르세요. (GEN-1)\", \"citations\": [\"GEN-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "07d3d332-f83d-41bf-a514-6727045302f2"
+  }
+ ],
+ "Q24": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"기타\", \"reply\": \"안내드립니다. 총무팀 관련 절차를 따르세요. (GEN-2)\", \"citations\": [\"GEN-2\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "1b255d6a-cc58-41c9-a20d-683622e24b39"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"기타\", \"reply\": \"안내드립니다. 총무팀 관련 절차를 따르세요. (GEN-2)\", \"citations\": [\"GEN-2\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "dc5de0f6-4e91-40ea-bcfb-b55a28fd5e8a"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"기타\", \"reply\": \"안내드립니다. 총무팀 관련 절차를 따르세요. (GEN-2)\", \"citations\": [\"GEN-2\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "1e6e14bc-8355-4abd-acd9-5ffaf8537369"
+  }
+ ],
+ "Q25": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다.  (IT-4, BUY-1)\", \"citations\": [\"IT-4\", \"BUY-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "c6c91d8b-e57c-45cd-80cb-5d53c7dc65cf"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"구매\", \"reply\": \"안내드립니다.  (IT-4, BUY-1)\", \"citations\": [\"IT-4\", \"BUY-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "8933de64-6d6f-4779-b6a0-d69d100fec6f"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다.  (IT-4, BUY-1)\", \"citations\": [\"IT-4\", \"BUY-1\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "be55c7b6-2bbc-4b63-b68d-f3ecf752011f"
+  }
+ ],
+ "Q26": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다.  (SEC-4)\", \"citations\": [\"SEC-4\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "9fcfbc7f-59c1-4b92-be11-cfc2b1863012"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다.  (SEC-4)\", \"citations\": [\"SEC-4\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "2d145974-41ca-4cdb-b277-fa5963bb1187"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"보안\", \"reply\": \"안내드립니다.  (SEC-4)\", \"citations\": [\"SEC-4\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "8cacac2a-2086-4ae0-b4be-1564c4f2ec96"
+  }
+ ],
+ "Q27": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"기타\", \"reply\": \"안내드립니다.  (GEN-3)\", \"citations\": [\"GEN-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "1c52735f-29d1-4d1e-827a-630ace65cb5f"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"기타\", \"reply\": \"안내드립니다.  (GEN-3)\", \"citations\": [\"GEN-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "2d08faab-e3c9-4bf5-a15d-ada18dabbd65"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"기타\", \"reply\": \"안내드립니다.  (GEN-3)\", \"citations\": [\"GEN-3\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "77823e0f-83f2-4904-8fa2-6d88c7bf00e0"
+  }
+ ],
+ "Q28": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"기타\", \"reply\": \"안내드립니다.\", \"citations\": [], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "8248db06-5e09-4a94-82ca-54978c2db3c4"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"기타\", \"reply\": \"안내드립니다.\", \"citations\": [], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "df7a241e-8df2-40f2-8b6a-185af158f6d3"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"기타\", \"reply\": \"안내드립니다.\", \"citations\": [\"GEN-4\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "19640d6c-22fe-4039-a5c9-8a5c8b09aa5e"
+  }
+ ],
+ "Q29": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다.  (IT-5)\", \"citations\": [\"IT-5\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "dc645c5e-60e8-491c-a31b-cf15dd1fce5b"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다.  (IT-5)\", \"citations\": [\"IT-5\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "d00f2678-8b42-442b-9a3e-ef6b5461a5d6"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다.  (IT-5)\", \"citations\": [\"IT-5\"], \"needs_human\": true}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "f1c32cf8-3643-4ec4-b71c-82be3e6d7957"
+  }
+ ],
+ "Q30": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11000,
+   "duration_api_ms": 10650,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다.\", \"citations\": [\"GEN-4\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.010902,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 600,
+    "cache_read_input_tokens": 19800,
+    "output_tokens": 180,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 180,
+     "cacheReadInputTokens": 19800,
+     "cacheCreationInputTokens": 600,
+     "webSearchRequests": 0,
+     "costUSD": 0.010902,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "3780e833-598e-47af-bbca-4b911b5b32c9"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 11700,
+   "duration_api_ms": 11350,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다.\", \"citations\": [\"GEN-4\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.008967,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 189,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 189,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.008967,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "c1a8af06-d240-44ba-89f0-7da404a880a4"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 12400,
+   "duration_api_ms": 12050,
+   "num_turns": 3,
+   "result": "{\"intent\": \"IT\", \"reply\": \"안내드립니다.\", \"citations\": [\"GEN-4\"], \"needs_human\": false}",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.009102,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 20400,
+    "output_tokens": 198,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 198,
+     "cacheReadInputTokens": 20400,
+     "cacheCreationInputTokens": 0,
+     "webSearchRequests": 0,
+     "costUSD": 0.009102,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "cac527e1-d587-499c-9e30-a22949fa3968"
+  }
+ ]
+}

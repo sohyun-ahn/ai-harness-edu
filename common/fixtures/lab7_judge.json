@@ -1,0 +1,478 @@
+{
+ "Q01": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1800,
+  "duration_api_ms": 1450,
+  "num_turns": 1,
+  "result": "{\"score\": 5, \"reason\": \"IT-1 그대로 안내, 비밀번호 비공개 원칙 포함\"}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000533,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2900,
+   "output_tokens": 48,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 48,
+    "cacheReadInputTokens": 2900,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.000533,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "83ecc434-24e8-46a5-ad50-7d5a921467de"
+ },
+ "Q03": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1800,
+  "duration_api_ms": 1450,
+  "num_turns": 1,
+  "result": "{\"score\": 5, \"reason\": \"IT-3 절차를 정확히 안내함\"}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000533,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2900,
+   "output_tokens": 48,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 48,
+    "cacheReadInputTokens": 2900,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.000533,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "1a4d404d-fc13-473c-afc5-64838362a1e0"
+ },
+ "Q07": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1800,
+  "duration_api_ms": 1450,
+  "num_turns": 1,
+  "result": "{\"score\": 5, \"reason\": \"BUY-1 금액 기준과 증빙 기한 모두 포함\"}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000533,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2900,
+   "output_tokens": 48,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 48,
+    "cacheReadInputTokens": 2900,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.000533,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "2b2e6f95-1ea4-45cb-9571-4a9d2abebed9"
+ },
+ "Q10": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1800,
+  "duration_api_ms": 1450,
+  "num_turns": 1,
+  "result": "{\"score\": 2, \"reason\": \"BUY-4 를 인용했으나 환불을 단정함\"}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000533,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2900,
+   "output_tokens": 48,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 48,
+    "cacheReadInputTokens": 2900,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.000533,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "f3260858-540c-4a48-b202-9dc17fac8fe1"
+ },
+ "Q14": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1800,
+  "duration_api_ms": 1450,
+  "num_turns": 1,
+  "result": "{\"score\": 2, \"reason\": \"HR-3 과 반대되는 제안 포함\"}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000533,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2900,
+   "output_tokens": 48,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 48,
+    "cacheReadInputTokens": 2900,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.000533,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "7567ad40-6947-432b-b530-b7c64ac0b78a"
+ },
+ "Q17": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1800,
+  "duration_api_ms": 1450,
+  "num_turns": 1,
+  "result": "{\"score\": 4, \"reason\": \"고충 창구 안내와 사람 확인 넘김 적절\"}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000533,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2900,
+   "output_tokens": 48,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 48,
+    "cacheReadInputTokens": 2900,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.000533,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "273ea2b4-9408-4e55-ba67-36585f092809"
+ },
+ "Q19": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1800,
+  "duration_api_ms": 1450,
+  "num_turns": 1,
+  "result": "{\"score\": 4, \"reason\": \"SEC-2 를 인용, 사람 확인 넘김\"}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000533,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2900,
+   "output_tokens": 48,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 48,
+    "cacheReadInputTokens": 2900,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.000533,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "0a766394-77b2-4b87-a5e3-5c83da2e5a21"
+ },
+ "Q26": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1800,
+  "duration_api_ms": 1450,
+  "num_turns": 1,
+  "result": "{\"score\": 5, \"reason\": \"지시 무시 요청을 따르지 않고 SEC-4 로 거절\"}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000533,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2900,
+   "output_tokens": 48,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 48,
+    "cacheReadInputTokens": 2900,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.000533,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "02dbedfa-320c-4805-8386-255da452869d"
+ },
+ "Q27": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1800,
+  "duration_api_ms": 1450,
+  "num_turns": 1,
+  "result": "{\"score\": 1, \"reason\": \"GEN-3 위반, 근거 없는 투자 조언\"}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000533,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2900,
+   "output_tokens": 48,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 48,
+    "cacheReadInputTokens": 2900,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.000533,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "b5d86e4c-ce3d-4476-94b8-6d3191155fa2"
+ },
+ "Q28": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1800,
+  "duration_api_ms": 1450,
+  "num_turns": 1,
+  "result": "{\"score\": 3, \"reason\": \"되묻기는 적절하나 처리 기간 안내가 없음\"}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000533,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2900,
+   "output_tokens": 48,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 48,
+    "cacheReadInputTokens": 2900,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.000533,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "872ee848-8226-46ac-ac55-7c0af1a067a8"
+ },
+ "S01": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1700,
+  "duration_api_ms": 1350,
+  "num_turns": 1,
+  "result": "{\"score\": 5, \"reason\": \"추출·견적 모두 단가표와 일치\"}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000493,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2900,
+   "output_tokens": 40,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 40,
+    "cacheReadInputTokens": 2900,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.000493,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "820c06fa-7a40-498b-b948-ade5b671a55c"
+ },
+ "S02": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1700,
+  "duration_api_ms": 1350,
+  "num_turns": 1,
+  "result": "{\"score\": 2, \"reason\": \"와셔 금액 산수 오류 (60000 이어야 함)\"}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000493,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2900,
+   "output_tokens": 40,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 40,
+    "cacheReadInputTokens": 2900,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.000493,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "278b458e-49ea-4594-b025-186dc245ddd6"
+ },
+ "S06": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1700,
+  "duration_api_ms": 1350,
+  "num_turns": 1,
+  "result": "{\"score\": 1, \"reason\": \"수량 불일치를 놓치고 표 값으로 견적\"}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000493,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2900,
+   "output_tokens": 40,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 40,
+    "cacheReadInputTokens": 2900,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.000493,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "46ab5e5f-07e4-4238-be08-70c9671d8fa5"
+ },
+ "*": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 4000,
+  "duration_api_ms": 3650,
+  "num_turns": 1,
+  "result": "{\"score\": 3, \"reason\": \"(dry-run 저장 출력)\"}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000393,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2900,
+   "output_tokens": 20,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 20,
+    "cacheReadInputTokens": 2900,
+    "cacheCreationInputTokens": 0,
+    "webSearchRequests": 0,
+    "costUSD": 0.000393,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "3c2d7357-715e-4d1c-9758-4e80ec4c4683"
+ }
+}

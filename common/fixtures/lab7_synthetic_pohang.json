@@ -1,0 +1,70 @@
+[
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 6500,
+  "duration_api_ms": 6150,
+  "num_turns": 1,
+  "result": "{\"text\": \"[자재 사양서] 가스켓 50A 10K 비석면 — 본문 20 EA, 표 16 EA\", \"items\": [{\"품목\": \"가스켓\", \"규격\": \"50A 10K\", \"재질\": \"비석면\", \"수량\": null, \"단위\": \"EA\", \"비고\": \"수량 불일치\"}], \"needs_human\": true}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.007344,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 900,
+   "cache_read_input_tokens": 4200,
+   "output_tokens": 180,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 180,
+    "cacheReadInputTokens": 4200,
+    "cacheCreationInputTokens": 900,
+    "webSearchRequests": 0,
+    "costUSD": 0.007344,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "6affc3ae-9624-456a-bec5-072251c07510"
+ },
+ {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 6500,
+  "duration_api_ms": 6150,
+  "num_turns": 1,
+  "result": "{\"text\": \"[자재 사양서] 베어링 6312ZZ SUJ2 수량: (공란)\", \"items\": [{\"품목\": \"베어링\", \"규격\": \"6312ZZ\", \"재질\": \"SUJ2\", \"수량\": null, \"단위\": \"EA\", \"비고\": \"수량 누락\"}], \"needs_human\": true}",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.007344,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 900,
+   "cache_read_input_tokens": 4200,
+   "output_tokens": 180,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 180,
+    "cacheReadInputTokens": 4200,
+    "cacheCreationInputTokens": 900,
+    "webSearchRequests": 0,
+    "costUSD": 0.007344,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "f63acaf2-69de-42c4-b900-e9464fb3d93d"
+ }
+]

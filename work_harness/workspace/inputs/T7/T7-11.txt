@@ -1,0 +1,5 @@
+[Material Spec] Doc No. HB-SPEC-711
+※ 가상 회사 「한빛스틸」 실습용 가상 문서
+
+Item: 게이트밸브   Size: 50A 10K   Material: SCS13   Q'ty: 5 박스 (박스당 40 EA)
+

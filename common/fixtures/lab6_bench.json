@@ -1,0 +1,1101 @@
+{
+ "baseline/t1": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1548,
+  "duration_api_ms": 1198,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.001734,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 100,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 4,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 4,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 100,
+    "webSearchRequests": 0,
+    "costUSD": 0.001734,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "12cd9a16-2588-438d-9864-7c070de61bf9"
+ },
+ "baseline/t2": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 6540,
+  "duration_api_ms": 6190,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.009324,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 460,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 420,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 420,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 460,
+    "webSearchRequests": 0,
+    "costUSD": 0.009324,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "a2598b1b-ce37-40c7-b70f-a89fbd54e7a2"
+ },
+ "baseline/t3": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 6060,
+  "duration_api_ms": 5710,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.010524,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 940,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 380,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 380,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 940,
+    "webSearchRequests": 0,
+    "costUSD": 0.010524,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "940f717e-7b02-44c6-a5a5-ac03bf5c3db9"
+ },
+ "baseline/t4": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 9300,
+  "duration_api_ms": 8950,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.013824,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 740,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 650,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 650,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 740,
+    "webSearchRequests": 0,
+    "costUSD": 0.013824,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "bc4b2ee7-ee4c-4379-bf9b-8fed774af463"
+ },
+ "baseline/t5": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 9000,
+  "duration_api_ms": 8650,
+  "num_turns": 2,
+  "result": "test_remove_more_than_stock — 재고 검사 없음\ntest_vpn — 소문자 변환 후 대문자 키워드 비교",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.015504,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 2600,
+   "cache_read_input_tokens": 10100,
+   "output_tokens": 180,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 180,
+    "cacheReadInputTokens": 10100,
+    "cacheCreationInputTokens": 2600,
+    "webSearchRequests": 0,
+    "costUSD": 0.015504,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "bfe9c53b-e59c-484a-8736-6e561c40c2fe"
+ },
+ "brief/t1": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1524,
+  "duration_api_ms": 1174,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.001704,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 100,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 2,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 2,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 100,
+    "webSearchRequests": 0,
+    "costUSD": 0.001704,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "4b1d952f-6e08-4576-95db-30c895024816"
+ },
+ "brief/t2": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 3768,
+  "duration_api_ms": 3418,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.005859,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 460,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 189,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 189,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 460,
+    "webSearchRequests": 0,
+    "costUSD": 0.005859,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "50a9bbb1-f555-4d80-a539-96bfff5e21e9"
+ },
+ "brief/t3": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 3552,
+  "duration_api_ms": 3202,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.007389,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 940,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 171,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 171,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 940,
+    "webSearchRequests": 0,
+    "costUSD": 0.007389,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "ad37626a-8dd4-430b-be9b-cb9a1c93e124"
+ },
+ "brief/t4": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 5004,
+  "duration_api_ms": 4654,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.008454,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 740,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 292,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 292,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 740,
+    "webSearchRequests": 0,
+    "costUSD": 0.008454,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "66d836e3-7aa1-46d8-a2c9-ddd026a22ea1"
+ },
+ "brief/t5": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 9000,
+  "duration_api_ms": 8650,
+  "num_turns": 2,
+  "result": "test_remove_more_than_stock — 재고 검사 없음\ntest_vpn — 소문자 변환 후 대문자 키워드 비교",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.014019,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 2600,
+   "cache_read_input_tokens": 10100,
+   "output_tokens": 81,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 81,
+    "cacheReadInputTokens": 10100,
+    "cacheCreationInputTokens": 2600,
+    "webSearchRequests": 0,
+    "costUSD": 0.014019,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "b535aecf-a7b9-41ea-9550-f6124a6c2e98"
+ },
+ "caveman/t1": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1524,
+  "duration_api_ms": 1174,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.001704,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 100,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 2,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 2,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 100,
+    "webSearchRequests": 0,
+    "costUSD": 0.001704,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "070f24f7-ea35-4a14-b694-db5e5b739574"
+ },
+ "caveman/t2": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 3264,
+  "duration_api_ms": 2914,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.005229,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 460,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 147,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 147,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 460,
+    "webSearchRequests": 0,
+    "costUSD": 0.005229,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "5d11b1e7-3577-4ebc-ae8c-a861916ec4fd"
+ },
+ "caveman/t3": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 3096,
+  "duration_api_ms": 2746,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.006819,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 940,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 133,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 133,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 940,
+    "webSearchRequests": 0,
+    "costUSD": 0.006819,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "bed50f65-7040-4a45-9a28-33e143f4a988"
+ },
+ "caveman/t4": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 4224,
+  "duration_api_ms": 3874,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.007479,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 740,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 227,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 227,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 740,
+    "webSearchRequests": 0,
+    "costUSD": 0.007479,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "7aa9951a-ce47-46e9-9175-6da4bb436b2b"
+ },
+ "caveman/t5": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 9000,
+  "duration_api_ms": 8650,
+  "num_turns": 2,
+  "result": "test_remove_more_than_stock — 재고 검사 없음\ntest_vpn — 소문자 변환 후 대문자 키워드 비교",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.013734,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 2600,
+   "cache_read_input_tokens": 10100,
+   "output_tokens": 62,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 62,
+    "cacheReadInputTokens": 10100,
+    "cacheCreationInputTokens": 2600,
+    "webSearchRequests": 0,
+    "costUSD": 0.013734,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "67e4571c-c479-4719-85af-9a3d06fa3c26"
+ },
+ "ponytail/t1": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 1524,
+  "duration_api_ms": 1174,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.001704,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 100,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 2,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 2,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 100,
+    "webSearchRequests": 0,
+    "costUSD": 0.001704,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "41ebe4a1-8560-43dc-8eb9-3aea9db8793b"
+ },
+ "ponytail/t2": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 5028,
+  "duration_api_ms": 4678,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.007434,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 460,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 294,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 294,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 460,
+    "webSearchRequests": 0,
+    "costUSD": 0.007434,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "179562ca-2ef3-498f-ba43-3eb04d41e709"
+ },
+ "ponytail/t3": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 4692,
+  "duration_api_ms": 4342,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.008814,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 940,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 266,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 266,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 940,
+    "webSearchRequests": 0,
+    "costUSD": 0.008814,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "8bd71145-4fc2-4dee-84a1-96560fd9f1ae"
+ },
+ "ponytail/t4": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 6948,
+  "duration_api_ms": 6598,
+  "num_turns": 1,
+  "result": "(답)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.010884,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 740,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 454,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 454,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 740,
+    "webSearchRequests": 0,
+    "costUSD": 0.010884,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "a54259e0-4af7-4813-8806-0302311f9f6b"
+ },
+ "ponytail/t5": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 9000,
+  "duration_api_ms": 8650,
+  "num_turns": 2,
+  "result": "test_remove_more_than_stock — 재고 검사 없음\ntest_vpn — 소문자 변환 후 대문자 키워드 비교",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.014679,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 2600,
+   "cache_read_input_tokens": 10100,
+   "output_tokens": 125,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 125,
+    "cacheReadInputTokens": 10100,
+    "cacheCreationInputTokens": 2600,
+    "webSearchRequests": 0,
+    "costUSD": 0.014679,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "0a1586de-41b4-45fd-8b40-27febfc37a7b"
+ },
+ "haiku/t1": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 920,
+  "duration_api_ms": 570,
+  "num_turns": 1,
+  "result": "IT",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.000568,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 100,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 2,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 2,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 100,
+    "webSearchRequests": 0,
+    "costUSD": 0.000568,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "024ad467-a2b7-48ee-b519-34c9e662e613"
+ },
+ "haiku/t2": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 6060,
+  "duration_api_ms": 5710,
+  "num_turns": 1,
+  "result": "[...]",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.002908,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 460,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 380,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 380,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 460,
+    "webSearchRequests": 0,
+    "costUSD": 0.002908,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "6c3f8f9d-cdd7-4a51-9035-a2eac64aae0b"
+ },
+ "sonnet/t1": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 940,
+  "duration_api_ms": 590,
+  "num_turns": 1,
+  "result": "IT",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.001734,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 100,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 4,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 4,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 100,
+    "webSearchRequests": 0,
+    "costUSD": 0.001734,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "4b86941e-4d17-4941-8e34-a2dd8052facd"
+ },
+ "sonnet/t2": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 6540,
+  "duration_api_ms": 6190,
+  "num_turns": 1,
+  "result": "[...]",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.009324,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 460,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 420,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 420,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 460,
+    "webSearchRequests": 0,
+    "costUSD": 0.009324,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "c0f1e83f-4550-40f7-89a9-c9c1edc665b4"
+ },
+ "opus/t1": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 940,
+  "duration_api_ms": 590,
+  "num_turns": 1,
+  "result": "IT",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.00289,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 100,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 4,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 4,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 100,
+    "webSearchRequests": 0,
+    "costUSD": 0.00289,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "1cd00c01-8fbc-4a86-bbb6-09b303c7f93f"
+ },
+ "opus/t2": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 6960,
+  "duration_api_ms": 6610,
+  "num_turns": 1,
+  "result": "[...]",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.016415,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 460,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 455,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 455,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 460,
+    "webSearchRequests": 0,
+    "costUSD": 0.016415,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "49bfab6c-044c-4cf1-a88a-1bf91ad77f02"
+ },
+ "cache/t1": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 2300,
+   "duration_api_ms": 1950,
+   "num_turns": 1,
+   "result": "IT",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.028059,
+   "usage": {
+    "input_tokens": 3,
+    "cache_creation_input_tokens": 7120,
+    "cache_read_input_tokens": 4300,
+    "output_tokens": 4,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 3,
+     "outputTokens": 4,
+     "cacheReadInputTokens": 4300,
+     "cacheCreationInputTokens": 7120,
+     "webSearchRequests": 0,
+     "costUSD": 0.028059,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "16049f5d-30c5-42d1-8b83-b21fb3003387"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 1200,
+   "duration_api_ms": 850,
+   "num_turns": 1,
+   "result": "IT",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.003714,
+   "usage": {
+    "input_tokens": 3,
+    "cache_creation_input_tokens": 60,
+    "cache_read_input_tokens": 11400,
+    "output_tokens": 4,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 3,
+     "outputTokens": 4,
+     "cacheReadInputTokens": 11400,
+     "cacheCreationInputTokens": 60,
+     "webSearchRequests": 0,
+     "costUSD": 0.003714,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "7ba272d3-3ee5-423f-bfb6-6b398230f7ab"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 1150,
+   "duration_api_ms": 800,
+   "num_turns": 1,
+   "result": "IT",
+   "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+   "total_cost_usd": 0.003714,
+   "usage": {
+    "input_tokens": 3,
+    "cache_creation_input_tokens": 60,
+    "cache_read_input_tokens": 11400,
+    "output_tokens": 4,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 3,
+     "outputTokens": 4,
+     "cacheReadInputTokens": 11400,
+     "cacheCreationInputTokens": 60,
+     "webSearchRequests": 0,
+     "costUSD": 0.003714,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "07382ed6-79d0-4bac-a42e-831f11f8c8b3"
+  }
+ ],
+ "subagent/t3": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 9800,
+  "duration_api_ms": 9450,
+  "num_turns": 2,
+  "result": "(요약 5줄)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.012521,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 900,
+   "cache_read_input_tokens": 5200,
+   "output_tokens": 300,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 300,
+    "cacheReadInputTokens": 5200,
+    "cacheCreationInputTokens": 900,
+    "webSearchRequests": 0,
+    "costUSD": 0.009465,
+    "contextWindow": 200000
+   },
+   "claude-haiku-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 250,
+    "cacheReadInputTokens": 3000,
+    "cacheCreationInputTokens": 1200,
+    "webSearchRequests": 0,
+    "costUSD": 0.003056,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "5298795e-48fb-4b13-9b33-b5fbfefde7a8"
+ },
+ "rtk/t5": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 8200,
+  "duration_api_ms": 7850,
+  "num_turns": 2,
+  "result": "test_remove_more_than_stock — 재고 검사 없음\ntest_vpn — 소문자 변환 후 대문자 키워드 비교",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.008979,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 900,
+   "cache_read_input_tokens": 10100,
+   "output_tokens": 170,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 170,
+    "cacheReadInputTokens": 10100,
+    "cacheCreationInputTokens": 900,
+    "webSearchRequests": 0,
+    "costUSD": 0.008979,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "50df64fe-6936-471b-85a7-d362be1b9dec"
+ },
+ "*": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 4000,
+  "duration_api_ms": 3650,
+  "num_turns": 1,
+  "result": "(dry-run 저장 출력)",
+  "session_id": "e7b0ecd4-364f-5e68-b925-32da6c2545c4",
+  "total_cost_usd": 0.002424,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 100,
+   "cache_read_input_tokens": 4300,
+   "output_tokens": 50,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 3,
+    "outputTokens": 50,
+    "cacheReadInputTokens": 4300,
+    "cacheCreationInputTokens": 100,
+    "webSearchRequests": 0,
+    "costUSD": 0.002424,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "79c75972-3e39-4c96-afd4-29f5153a5812"
+ }
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>판교 Q10 타임라인 (예시)</title>
+<style>
+:root{--navy:#1F3A5F;--gray:#D9DDE3;--orange:#F28C28}
+body{margin:0;padding:24px 16px;background:#fff;color:#1b2430;font:14px/1.5 -apple-system,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif}
+main{max-width:1200px;margin:0 auto}
+h1{font-size:20px;color:var(--navy);margin:0 0 4px}
+.sub{color:#5b6573;margin:0 0 16px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px;padding:0;list-style:none}
+.meta li{background:var(--gray);border-radius:6px;padding:6px 10px}
+.meta b{color:var(--navy)}
+.card{border:1px solid var(--gray);border-radius:10px;padding:12px;margin:0 0 16px;overflow-x:auto}
+svg text.lane{font-size:14px;font-weight:700} svg text.tok{font-size:11px;fill:#5b6573}
+svg text.axis{font-size:11px;fill:#5b6573} svg text.bar{font-size:11px;fill:#fff}
+table{border-collapse:collapse;width:100%} th,td{border-bottom:1px solid var(--gray);padding:6px 8px;text-align:right}
+th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left} th{color:var(--navy)}
+.legend span{display:inline-block;margin-right:16px} .sw{display:inline-block;width:18px;height:10px;border-radius:2px;vertical-align:middle;margin-right:4px}
+ol li{margin-bottom:6px} .ret{color:#5b6573}
+pre{white-space:pre-wrap;background:#f6f7f9;border-radius:8px;padding:10px;margin:0}
+</style></head><body><main>
+<h1>판교 Q10 타임라인 (예시)</h1>
+<p class="sub">위임 순서: <b>classifier → responder-buy → verifier-inquiry</b></p>
+<ul class="meta"><li>세션 <b>2f8f505e-4c54</b></li><li>모델(메인) <b>claude-sonnet-5-5</b></li><li>턴 <b>5</b></li><li>시간 <b>24.4s</b></li><li>메인 토큰(result) <b>94,581</b></li><li>줄별 합계 <b>125,041</b></li><li>위임 <b>3</b></li><li>도구 호출 <b>6</b></li></ul>
+<div class="card legend"><span><i class="sw" style="background:#1F3A5F"></i>도구 호출</span>
+<span><i class="sw" style="background:#F28C28;opacity:.6"></i>서브에이전트 위임</span>
+<span><i class="sw" style="border:1px dashed #F28C28"></i>서브에이전트가 일한 구간</span>
+<span>● 글 출력 · 막대에 마우스를 올리면 입력·결과</span></div>
+<div class="card"><svg viewBox="0 0 1180 332" width="100%" style="min-width:900px" role="img" aria-label="판교 Q10 타임라인 (예시)">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F28C28"/></marker></defs>
+<rect x="0" y="36" width="1180" height="58" rx="6" fill="#D9DDE3" fill-opacity="0.55"/>
+<text x="12" y="60" class="lane" fill="#1F3A5F">main</text>
+<text x="12" y="80" class="tok">94,088 / 493 tok</text>
+<rect x="0" y="100" width="1180" height="58" rx="6" fill="#D9DDE3" fill-opacity="0.3"/>
+<text x="12" y="124" class="lane" fill="#F28C28">classifier</text>
+<text x="12" y="144" class="tok">5,453 / 22 tok</text>
+<rect x="451.3" y="106" width="2.0" height="46" rx="5" fill="none" stroke="#F28C28" stroke-dasharray="4 3"/>
+<rect x="0" y="164" width="1180" height="58" rx="6" fill="#D9DDE3" fill-opacity="0.55"/>
+<text x="12" y="188" class="lane" fill="#F28C28">responder-buy</text>
+<text x="12" y="208" class="tok">13,097 / 225 tok</text>
+<rect x="601.7" y="170" width="178.2" height="46" rx="5" fill="none" stroke="#F28C28" stroke-dasharray="4 3"/>
+<rect x="0" y="228" width="1180" height="58" rx="6" fill="#D9DDE3" fill-opacity="0.3"/>
+<text x="12" y="252" class="lane" fill="#F28C28">verifier-inquiry</text>
+<text x="12" y="272" class="tok">11,566 / 97 tok</text>
+<rect x="922.4" y="234" width="91.1" height="46" rx="5" fill="none" stroke="#F28C28" stroke-dasharray="4 3"/>
+<line x1="190.0" y1="30" x2="190.0" y2="298" stroke="#1F3A5F" stroke-opacity="0.08"/>
+<text x="190.0" y="316" class="axis" text-anchor="middle">0s</text>
+<line x1="269.2" y1="30" x2="269.2" y2="298" stroke="#1F3A5F" stroke-opacity="0.08"/>
+<text x="269.2" y="316" class="axis" text-anchor="middle">2s</text>
+<line x1="348.4" y1="30" x2="348.4" y2="298" stroke="#1F3A5F" stroke-opacity="0.08"/>
+<text x="348.4" y="316" class="axis" text-anchor="middle">4s</text>
+<line x1="427.5" y1="30" x2="427.5" y2="298" stroke="#1F3A5F" stroke-opacity="0.08"/>
+<text x="427.5" y="316" class="axis" text-anchor="middle">6s</text>
+<line x1="506.7" y1="30" x2="506.7" y2="298" stroke="#1F3A5F" stroke-opacity="0.08"/>
+<text x="506.7" y="316" class="axis" text-anchor="middle">8s</text>
+<line x1="585.9" y1="30" x2="585.9" y2="298" stroke="#1F3A5F" stroke-opacity="0.08"/>
+<text x="585.9" y="316" class="axis" text-anchor="middle">10s</text>
+<line x1="665.1" y1="30" x2="665.1" y2="298" stroke="#1F3A5F" stroke-opacity="0.08"/>
+<text x="665.1" y="316" class="axis" text-anchor="middle">12s</text>
+<line x1="744.3" y1="30" x2="744.3" y2="298" stroke="#1F3A5F" stroke-opacity="0.08"/>
+<text x="744.3" y="316" class="axis" text-anchor="middle">14s</text>
+<line x1="823.4" y1="30" x2="823.4" y2="298" stroke="#1F3A5F" stroke-opacity="0.08"/>
+<text x="823.4" y="316" class="axis" text-anchor="middle">16s</text>
+<line x1="902.6" y1="30" x2="902.6" y2="298" stroke="#1F3A5F" stroke-opacity="0.08"/>
+<text x="902.6" y="316" class="axis" text-anchor="middle">18s</text>
+<line x1="981.8" y1="30" x2="981.8" y2="298" stroke="#1F3A5F" stroke-opacity="0.08"/>
+<text x="981.8" y="316" class="axis" text-anchor="middle">20s</text>
+<line x1="1061.0" y1="30" x2="1061.0" y2="298" stroke="#1F3A5F" stroke-opacity="0.08"/>
+<text x="1061.0" y="316" class="axis" text-anchor="middle">22s</text>
+<line x1="1140.2" y1="30" x2="1140.2" y2="298" stroke="#1F3A5F" stroke-opacity="0.08"/>
+<text x="1140.2" y="316" class="axis" text-anchor="middle">24s</text>
+<g><title>Skill
+입력: {&quot;skill&quot;: &quot;orchestrate-inquiry&quot;}
+결과: Launching skill: orchestrate-inquiry</title><rect x="273.1" y="56" width="5.0" height="18" rx="3" fill="#1F3A5F" fill-opacity="0.9"/>
+</g>
+<g><title>Agent → classifier
+입력: {&quot;description&quot;: &quot;문의 분류&quot;, &quot;prompt&quot;: &quot;문의: 납품받은 부품이 불량이에요. 환불은 바로 해주실 거죠?&quot;, &quot;subagent_type&quot;: &quot;classifier&quot;}
+결과: 구매 납품 부품 불량과 환불 요청 — 구매 분야</title><rect x="360.2" y="56" width="99.0" height="18" rx="3" fill="#F28C28" fill-opacity="0.55"/>
+<text x="365.2" y="69" class="bar">Agent → class…</text>
+</g>
+<g><title>Agent → responder-buy
+입력: {&quot;description&quot;: &quot;구매 답변 초안&quot;, &quot;prompt&quot;: &quot;문의: 납품받은 부품이 불량이에요. 환불은 바로 해주실 거죠?&quot;, &quot;subagent_type&quot;: &quot;responder-buy&quot;}
+결과: 초안: 납품 불량 부품의 반품·환불 여부는 구매팀이 공급사와 협의해 정합니다. 불량 내용과 납품 정보를 구매팀에 전달해 주세요. 근거: [BUY-4] 사람 확인: 예 (환불 판단)</title><rect x="534.4" y="56" width="253.4" height="18" rx="3" fill="#F28C28" fill-opacity="0.55"/>
+<text x="539.4" y="69" class="bar">Agent → responder-buy</text>
+</g>
+<g><title>Grep
+입력: {&quot;pattern&quot;: &quot;BUY-&quot;, &quot;path&quot;: &quot;data/kb&quot;, &quot;output_mode&quot;: &quot;content&quot;}
+결과: data/kb/purchase.md:- **BUY-1** 소액 구매 ... data/kb/purchase.md:- **BUY-4** 반품·환불: 반품·환불 여부는 구매팀이 공급사와 협의해 정한다. ...</title><rect x="601.7" y="184" width="5.0" height="18" rx="3" fill="#1F3A5F" fill-opacity="0.9"/>
+</g>
+<g><title>Agent → verifier-inquiry
+입력: {&quot;description&quot;: &quot;초안 검증&quot;, &quot;prompt&quot;: &quot;문의 원문, 초안, 근거 [BUY-4] 를 조항 원문과 대조해라.&quot;, &quot;subagent_type&quot;: &quot;verifier-inquiry&quot;}
+결과: verdict: pass 문제: 없음 (환불을 약속하지 않음, 조항 일치) needs_human: true</title><rect x="859.1" y="56" width="162.3" height="18" rx="3" fill="#F28C28" fill-opacity="0.55"/>
+<text x="864.1" y="69" class="bar">Agent → verifier-inquiry</text>
+</g>
+<g><title>Grep
+입력: {&quot;pattern&quot;: &quot;BUY-4&quot;, &quot;path&quot;: &quot;data/kb&quot;, &quot;output_mode&quot;: &quot;content&quot;}
+결과: data/kb/purchase.md:- **BUY-4** 반품·환불: 반품·환불 여부는 구매팀이 공급사와 협의해 정한다. 문의 응대 단계에서 환불을 약속하지 않는다.</title><rect x="922.4" y="248" width="5.0" height="18" rx="3" fill="#1F3A5F" fill-opacity="0.9"/>
+</g>
+<line x1="360.2" y1="74" x2="368.2" y2="120" stroke="#F28C28" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="459.2" y1="138" x2="451.2" y2="56" stroke="#F28C28" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#arr)"/>
+<line x1="534.4" y1="74" x2="542.4" y2="184" stroke="#F28C28" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="787.8" y1="202" x2="779.8" y2="56" stroke="#F28C28" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#arr)"/>
+<line x1="859.1" y1="74" x2="867.1" y2="248" stroke="#F28C28" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="1021.4" y1="266" x2="1013.4" y2="56" stroke="#F28C28" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#arr)"/>
+<g><title>순서대로 classifier 에게 분류를 맡깁니다.</title><circle cx="360.2" cy="86" r="4" fill="#1F3A5F"/></g>
+<g><title>구매 납품 부품 불량과 환불 요청 — 구매 분야</title><circle cx="451.3" cy="150" r="4" fill="#1F3A5F"/></g>
+<g><title>초안: 납품 불량 부품의 반품·환불 여부는 구매팀이 공급사와 협의해 정합니다. 불량 내용과 납품 정보를 구매팀에 전달해 주세요. 근거: [BUY-4] 사람 확인: 예 (환불 판단)</title><circle cx="779.9" cy="214" r="4" fill="#1F3A5F"/></g>
+<g><title>verdict: pass 문제: 없음 (환불을 약속하지 않음, 조항 일치) needs_human: true</title><circle cx="1013.5" cy="278" r="4" fill="#1F3A5F"/></g>
+<g><title>{&quot;intent&quot;: &quot;구매&quot;, &quot;reply&quot;: &quot;납품 불량 부품의 반품·환불 여부는 구매팀이 공급사와 협의해 정합니다(BUY-4). 불량 내용과 납품 정보를 구매팀에 전달해 주시면 담당자가 확인 후 안내드립니다.&quot;, &quot;citations&quot;: [&quot;BUY-4&quot;], &quot;needs_human&quot;: true, &quot;verdict&quot;: &quot;pass&quot;, &quot;reason&quot;: &quot;조항 일치, 환불 약속 없음&quot;, &quot;trace&quot;: [&quot;classifier&quot;, &quot;responder-buy&quot;, &quot;verifier-inquiry&quot;]}</title><circle cx="1152.0" cy="86" r="4" fill="#1F3A5F"/></g>
+</svg></div>
+<div class="card"><table><thead><tr><th>줄</th><th>모델</th><th>in</th><th>캐시</th><th>out</th><th>합계</th><th>도구</th><th>구간(s)</th></tr></thead>
+<tbody><tr><td><b style="color:#1F3A5F">main</b></td><td>sonnet-5-5</td><td>28</td><td>94,060</td><td>493</td><td><b>94,581</b></td><td>4</td><td>22.3</td></tr><tr><td><b style="color:#F28C28">classifier</b></td><td>haiku-5-5</td><td>3</td><td>5,450</td><td>22</td><td><b>5,475</b></td><td>0</td><td>0.0</td></tr><tr><td><b style="color:#F28C28">responder-buy</b></td><td>sonnet-5-5</td><td>7</td><td>13,090</td><td>225</td><td><b>13,322</b></td><td>1</td><td>4.5</td></tr><tr><td><b style="color:#F28C28">verifier-inquiry</b></td><td>haiku-5-5</td><td>6</td><td>11,560</td><td>97</td><td><b>11,663</b></td><td>1</td><td>2.3</td></tr></tbody></table></div>
+<div class="card"><b>위임과 반환</b><ol><li><b>classifier</b> (2.5s) — 문의 분류<br><span class="ret">↩ 구매 납품 부품 불량과 환불 요청 — 구매 분야</span></li><li><b>responder-buy</b> (6.4s) — 구매 답변 초안<br><span class="ret">↩ 초안: 납품 불량 부품의 반품·환불 여부는 구매팀이 공급사와 협의해 정합니다. 불량 내용과 납품 정보를 구매팀에 전달해 주세요. 근거: [BUY-4] 사람 확인: 예 (환불 판단)</span></li><li><b>verifier-inquiry</b> (4.1s) — 초안 검증<br><span class="ret">↩ verdict: pass 문제: 없음 (환불을 약속하지 않음, 조항 일치) needs_human: true</span></li></ol></div>
+<div class="card"><b>최종 답</b><pre>{&quot;intent&quot;: &quot;구매&quot;, &quot;reply&quot;: &quot;납품 불량 부품의 반품·환불 여부는 구매팀이 공급사와 협의해 정합니다(BUY-4). 불량 내용과 납품 정보를 구매팀에 전달해 주시면 담당자가 확인 후 안내드립니다.&quot;, &quot;citations&quot;: [&quot;BUY-4&quot;], &quot;needs_human&quot;: true, &quot;verdict&quot;: &quot;pass&quot;, &quot;reason&quot;: &quot;조항 일치, 환불 약속 없음&quot;, &quot;trace&quot;: [&quot;classifier&quot;, &quot;responder-buy&quot;, &quot;verifier-inquiry&quot;]}</pre></div>
+</main></body></html>

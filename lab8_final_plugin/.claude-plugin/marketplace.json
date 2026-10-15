@@ -1,0 +1,16 @@
+{
+  "name": "my-team-harness",
+  "owner": {
+    "name": "TODO(실습): 팀 이름"
+  },
+  "metadata": {
+    "description": "우리 팀 하네스 모음 (실습용 예시)"
+  },
+  "plugins": [
+    {
+      "name": "my-harness",
+      "source": "./my-harness",
+      "description": "근거로만 답하기 · 테스트 먼저 · 검증 서브에이전트 · 위험 명령 차단"
+    }
+  ]
+}

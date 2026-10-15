@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agent Watch</title>
+<style>
+  :root{--n:#1F3A5F;--g:#9AA5B1;--o:#F28C28;--l:#EEF1F5;--r:#D64545;--bg:#F7F8FA;--t:#1F2A37;--m:#6B7785;--card:#fff;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--t);font-family:Pretendard,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;padding:20px 24px}
+  header{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:14px}
+  h1{font-size:22px;margin:0;color:var(--n)}
+  .dot{width:10px;height:10px;border-radius:50%;background:var(--g);display:inline-block}
+  .dot.on{background:var(--o);animation:pulse 1.2s infinite}
+  @keyframes pulse{50%{opacity:.35}}
+  select{font:inherit;padding:6px 10px;border-radius:8px;border:1px solid #D5DBE3;max-width:520px}
+  label{font-size:13px;color:var(--m);display:flex;gap:6px;align-items:center}
+  .prompt{color:var(--m);font-size:13px;margin:-6px 0 14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-bottom:14px}
+  .kpi{background:var(--card);border-radius:12px;padding:12px 14px;border-top:3px solid var(--l)}
+  .kpi b{display:block;font-size:24px;color:var(--n);font-variant-numeric:tabular-nums}
+  .kpi span{font-size:12px;color:var(--m)}
+  .kpi.warn{border-top-color:var(--o)}
+  .row{display:grid;grid-template-columns:2fr 1fr;gap:14px}
+  .row.even{grid-template-columns:3fr 2fr}
+  @media (max-width:1000px){.row,.row.even{grid-template-columns:1fr}}
+  .card{background:var(--card);border-radius:12px;padding:14px 16px;margin-bottom:14px;min-width:0}
+  .card h3{margin:0 0 10px;font-size:14px;color:var(--n)}
+  svg{width:100%;height:auto;display:block}
+  .lane{font-size:12px;font-weight:700;fill:var(--n)}
+  .ax{font-size:11px;fill:var(--g)}
+  table{border-collapse:collapse;width:100%;font-size:12.5px}
+  th,td{padding:6px 8px;border-bottom:1px solid var(--l);text-align:right;white-space:nowrap}
+  th:first-child,td:first-child,th:nth-child(2),td:nth-child(2),th:nth-child(3),td:nth-child(3){text-align:left}
+  th{background:var(--n);color:#fff;font-weight:600}
+  .feed{font-size:12.5px;max-height:420px;overflow:auto}
+  .feed div{display:grid;grid-template-columns:62px 110px 1fr 64px;gap:8px;padding:5px 0;border-bottom:1px solid var(--l)}
+  .feed .tg{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--m)}
+  .feed .bad{color:var(--r)}
+  .tips div{padding:8px 10px;border-left:3px solid var(--o);background:#FFF7EF;margin-bottom:8px;font-size:13px;border-radius:0 8px 8px 0}
+  .tips .ok{border-left-color:var(--g);background:var(--l)}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--m);margin-top:6px}
+  .legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+  .empty{color:var(--m);padding:40px;text-align:center}
+  .mix{display:grid;grid-template-columns:110px 1fr 90px;gap:10px;align-items:center;margin:9px 0;font-size:13px}
+  .mix b{color:var(--n);text-align:right} .mix i{font-style:normal;color:var(--m)} .mix em{color:var(--r);font-style:normal}
+  .mbar{display:flex;height:22px;border-radius:6px;overflow:hidden;gap:2px}
+  .mbar span{display:grid;place-items:center;color:#fff;font-size:11px;font-weight:700;min-width:4px}
+  .mode{margin-left:auto;font:inherit;font-size:13px;padding:7px 14px;border-radius:8px;border:1px solid #D5DBE3;background:#fff;color:var(--n);cursor:pointer}
+  .simple{display:grid;grid-template-columns:minmax(0,2fr) minmax(280px,1fr);gap:16px}
+  @media (max-width:1000px){.simple{grid-template-columns:1fr}}
+  .big3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+  .big3 div{background:#fff;border-radius:12px;padding:14px 16px}
+  .big3 b{display:block;font-size:30px;color:var(--n);font-variant-numeric:tabular-nums}
+  .big3 span{font-size:13px;color:var(--m)}
+  .story{background:#fff;border-radius:12px;padding:16px 18px}
+  .story h3,.side h3{margin:0 0 12px;font-size:15px;color:var(--n)}
+  .st{display:grid;grid-template-columns:56px 1fr;gap:10px;align-items:start;padding:7px 0;border-bottom:1px solid var(--l)}
+  .st time{font-size:12px;color:var(--g);padding-top:3px;font-variant-numeric:tabular-nums}
+  .st .tx{border-left:4px solid var(--n);padding:2px 0 2px 12px;font-size:15px;line-height:1.45}
+  .st.sub .tx{margin-left:22px;border-left-color:var(--o)}
+  .st .tx small{display:block;color:var(--m);font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .st .who{display:inline-block;font-size:12px;font-weight:700;padding:1px 8px;border-radius:10px;background:var(--l);color:var(--n);margin-right:6px}
+  .st.sub .who{background:#FFF1E3;color:#B5651D}
+  .st .bad{color:var(--r);font-weight:700;margin-left:6px}
+  .st.mark .tx{font-weight:700;color:var(--n)}
+  .subg summary{list-style:none;cursor:pointer} .subg summary::-webkit-details-marker{display:none}
+  .subg[open] summary small{color:var(--o)}
+  .subg .st:not(summary){padding-left:24px}
+  .side .ag{background:#fff;border-radius:12px;padding:14px 16px;margin-bottom:10px;border-left:5px solid var(--n)}
+  .side .ag.sub{border-left-color:var(--o)}
+  .side .ag b{font-size:16px;color:var(--n)} .side .ag span{float:right;color:var(--m);font-size:13px}
+  .side .ag .bar{height:8px;background:var(--l);border-radius:4px;margin:10px 0 4px;overflow:hidden}
+  .side .ag .bar i{display:block;height:100%;background:var(--n)} .side .ag.sub .bar i{background:var(--o)}
+  .side .ag em{font-style:normal;font-size:13px;color:var(--m)}
+</style>
+</head>
+<body>
+<header>
+  <span class="dot" id="live"></span><h1>Agent Watch</h1>
+  <select id="sel"></select>
+  <label><input type="checkbox" id="follow" checked> 최신 세션 따라가기</label>
+  <button id="mode" class="mode">자세히 보기</button>
+</header>
+<div class="prompt" id="prompt"></div>
+<div id="app"><div class="empty">Claude Code 세션을 기다리는 중 · Hook이 켜진 프로젝트에서 작업을 시작하면 바로 나타난다</div></div>
+
+<script>
+const S = {};            // session id → 상태
+let cur = null, dirty = true, detail = false;
+try { detail = localStorage.getItem("aw-detail") === "1"; } catch (e) {}
+const READ = new Set(["Read","Grep","Glob","LS","WebFetch","WebSearch","NotebookRead"]);
+const EDIT = new Set(["Edit","Write","MultiEdit","NotebookEdit"]);
+const DELEG = new Set(["Agent","Task","Skill"]);
+const C = {n:"#1F3A5F", g:"#9AA5B1", o:"#F28C28", l:"#EEF1F5", r:"#D64545", b:"#4B5D73"};
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = n => (n||0).toLocaleString("ko-KR");
+const sec = s => s < 60 ? `${s.toFixed(0)}초` : `${Math.floor(s/60)}분 ${Math.round(s%60)}초`;
+
+function merge(sid, ev){
+  const s = S[sid] ||= {id:sid, events:[], agents:{main:{id:"main",type:"메인",status:"실행 중"}}, usage:{}, started:ev.t, status:"실행 중", prompt:"", cwd:""};
+  s.events.push(ev); s.updated = ev.t; s.cwd ||= ev.cwd || "";
+  const a = ev.agent;
+  if (ev.event === "UserPromptSubmit") { s.status = "실행 중"; s.agents.main.status = "실행 중"; }
+  if (ev.event === "SubagentStart") s.agents[a] = {id:a, type:ev.agent_type, start:ev.t, end:null, status:"실행 중"};
+  if (ev.event === "SubagentStop") Object.assign(s.agents[a] ||= {id:a, type:ev.agent_type, start:ev.t}, {end:ev.t, status:"완료"});
+  if (ev.event === "Stop") { s.status = "대기"; s.agents.main.status = "대기"; }
+  if (ev.event === "SessionEnd") { s.status = "종료"; s.agents.main.status = "종료"; }
+}
+
+// 파일을 직접 열었거나(file://) 다른 미리보기 서버에서 열어도 로컬 서버에 붙는다
+const API = location.port === (new URLSearchParams(location.search).get("port") || "7777") && location.protocol.startsWith("http")
+  ? "" : `http://127.0.0.1:${new URLSearchParams(location.search).get("port") || "7777"}`;
+
+async function boot(){
+  let st;
+  try { st = await (await fetch(API + "/state")).json(); }
+  catch (e) {
+    document.getElementById("app").innerHTML = `<div class="empty"><b>Agent Watch 서버에 연결되지 않음</b><br><br>
+      터미널에서 <code>cd labs/agent_watch && python3 server.py</code> 실행 후<br>
+      브라우저로 <code>http://127.0.0.1:7777</code> 을 연다 (파일을 직접 여는 것보다 이 주소가 확실하다)</div>`;
+    setTimeout(boot, 3000);
+    return;
+  }
+  Object.assign(S, st);
+  if (location.search.includes("static")) { render(); return; }   // 화면 캡처 · 기록 보기용
+  const es = new EventSource(API + "/stream");
+  es.onopen = () => document.getElementById("live").classList.add("on");
+  es.onerror = () => document.getElementById("live").classList.remove("on");
+  es.onmessage = m => {
+    const d = JSON.parse(m.data);
+    if (d.kind === "event") merge(d.session, d.event);
+    if (d.kind === "usage") { const x = (S[d.session] ||= {id:d.session, events:[], agents:{main:{id:"main",type:"메인"}}, usage:{}}); x.usage = d.usage; x.usage_series = d.series; }
+    dirty = true;
+  };
+  setInterval(() => { dirty = true; }, 1000);          // 경과 시간 갱신
+  (function loop(){ if (dirty) { dirty = false; render(); } requestAnimationFrame(loop); })();
+}
+
+function pickSession(){
+  const ids = Object.keys(S).sort((a,b) => (S[b].updated||0) - (S[a].updated||0));
+  const sel = document.getElementById("sel");
+  const opts = ids.map(id => `<option value="${id}">${new Date((S[id].started||0)*1000).toLocaleTimeString("ko-KR")} · ${esc((S[id].cwd||"").split("/").filter(x => x && x !== "work").pop())} · ${esc(S[id].status||"")}</option>`).join("");
+  if (sel.dataset.o !== opts) { sel.innerHTML = opts; sel.dataset.o = opts; }
+  const want = new URLSearchParams(location.search).get("session");   // ?session=앞부분 으로 고정
+  if (want && !cur) { cur = ids.find(id => id.startsWith(want) || (S[id].cwd || "").includes(want)) || null; if (cur) document.getElementById("follow").checked = false; }
+  if (document.getElementById("follow").checked || !cur || !S[cur]) cur = ids[0];
+  sel.value = cur;
+  return S[cur];
+}
+document.getElementById("mode").onclick = () => {
+  detail = !detail; try { localStorage.setItem("aw-detail", detail ? "1" : "0"); } catch (e) {}
+  dirty = true;
+};
+document.getElementById("sel").onchange = e => { cur = e.target.value; document.getElementById("follow").checked = false; dirty = true; };
+
+function analyse(s){
+  const ev = s.events, pre = {}, post = {};
+  for (const e of ev) {
+    if (e.event === "PreToolUse") pre[e.id] = e;
+    if (e.event === "PostToolUse" || e.event === "PostToolUseFailure") post[e.id] = e;
+  }
+  const tools = Object.values(pre);
+  const fails = ev.filter(e => e.event === "PostToolUseFailure");
+  const durs = Object.values(post).map(e => e.ms).filter(x => x != null);
+  const reads = {};
+  for (const e of tools) if (e.tool === "Read") { const k = e.agent + "|" + e.target; reads[k] = (reads[k]||0) + 1; }
+  const dup = Object.entries(reads).filter(([,n]) => n > 1);
+  const big = Object.values(post).filter(e => (e.size||0) > 20000).sort((a,b) => b.size - a.size);
+  const last = ev.length ? ev[ev.length-1].t : s.started;
+  const pending = tools.filter(e => !post[e.id]);
+  const stuck = pending.filter(e => last - e.t > 2 && ev.some(x => x.agent === e.agent && x.t > e.t + 0.5 && x.id !== e.id));
+  let tok = {in:0,out:0,cr:0,cw:0}, byAgent = s.usage || {};
+  for (const u of Object.values(byAgent)) for (const k in tok) tok[k] += u[k]||0;
+  const total = tok.in + tok.out + tok.cr + tok.cw;
+  const hit = (tok.in + tok.cr + tok.cw) ? tok.cr / (tok.in + tok.cr + tok.cw) : 0;
+  const subTok = Object.entries(byAgent).filter(([k]) => k !== "main").reduce((a,[,u]) => a + u.in + u.out + u.cr + u.cw, 0);
+  const running = s.status === "실행 중";
+  const elapsed = (running ? Date.now()/1000 : last) - s.started;
+  return {tools, pre, post, fails, durs, dup, big, stuck, tok, total, hit, subTok, elapsed, last, running};
+}
+
+function render(){
+  const s = pickSession();
+  if (!s) return;
+  const A = analyse(s);
+  document.getElementById("prompt").textContent = s.prompt ? "요청: " + s.prompt : "";
+  document.getElementById("mode").textContent = detail ? "간단히 보기" : "자세히 보기";
+  if (!detail) { document.getElementById("app").innerHTML = simpleView(s, A); return; }
+  const nSub = Object.keys(s.agents).length - 1;
+  const avg = A.durs.length ? A.durs.reduce((a,b)=>a+b,0)/A.durs.length/1000 : 0;
+  const k = (v, label, warn) => `<div class="kpi ${warn?"warn":""}"><b>${v}</b><span>${label}</span></div>`;
+  const kpis = [
+    k(sec(A.elapsed), `경과 · ${esc(s.status)}`),
+    k(fmt(A.total), "전체 토큰 (캐시 포함)"),
+    k(fmt(A.tok.out), "출력 토큰"),
+    k((A.hit*100).toFixed(0) + "%", "캐시 적중률", A.total > 50000 && A.hit < .6),
+    k(A.tools.length, "도구 호출"),
+    k(A.fails.length, "실패한 호출", A.fails.length > 0),
+    k(nSub, "Sub Agent"),
+    k(A.total ? (A.subTok/A.total*100).toFixed(0) + "%" : "-", "Sub Agent 토큰 비중"),
+    k(A.dup.reduce((a,[,n]) => a+n-1, 0), "같은 파일 다시 읽기", A.dup.length > 0),
+    k(avg.toFixed(1) + "초", "도구 평균 시간"),
+  ].join("");
+  document.getElementById("app").innerHTML =
+    `<div class="kpis">${kpis}</div>
+     <div class="card"><h3>에이전트 타임라인</h3>${timeline(s, A)}
+       <div class="legend"><span><i style="background:${C.g}"></i>읽기 · 검색</span><span><i style="background:${C.n}"></i>수정</span><span><i style="background:${C.b}"></i>명령 실행</span><span><i style="background:${C.o}"></i>위임 · Skill</span><span><i style="background:${C.r}"></i>실패 · 응답 없음(차단 가능)</span></div></div>
+     <div class="row even">
+       <div class="card"><h3>누적 토큰 (에이전트별 · 캐시 포함)</h3>${tokenChart(s, A)}</div>
+       <div class="card"><h3>도구 호출 구성</h3>${toolMix(s, A)}</div>
+     </div>
+     <div class="row">
+       <div class="card"><h3>에이전트별 토큰</h3>${agentTable(s, A)}</div>
+       <div class="card tips"><h3>효율 점검</h3>${tips(s, A)}</div>
+     </div>
+     <div class="card"><h3>최근 활동</h3><div class="feed">${feed(s, A)}</div></div>`;
+}
+
+const base = p => String(p || "").split("/").pop();
+function cat(tool){
+  if (tool === "Agent" || tool === "Task") return "deleg";
+  if (tool === "Skill") return "skill";
+  if (tool === "TodoWrite") return "todo";
+  if (tool === "Read" || tool === "NotebookRead") return "read";
+  if (["Grep","Glob","LS","WebSearch","WebFetch"].includes(tool)) return "search";
+  if (EDIT.has(tool)) return "edit";
+  if (tool === "Bash") return "bash";
+  return "other";
+}
+function sentence(g){
+  const names = [...new Set(g.items.map(e => base(e.target)))].filter(Boolean);
+  const list = names.slice(0, 3).join(", ") + (names.length > 3 ? ` 외 ${names.length - 3}` : "");
+  switch (g.cat) {
+    case "deleg": return [`<b>${esc(g.items[0].target || "Sub Agent")}</b>에게 맡김`, ""];
+    case "skill": return [`Skill 사용 · <b>${esc(g.items[0].target)}</b>`, ""];
+    case "todo": return ["할 일 목록 정리", ""];
+    case "read": return [`파일 ${names.length || g.items.length}개 읽음`, list];
+    case "search": return [`검색 ${g.items.length}번`, list];
+    case "edit": return [`파일 ${names.length || g.items.length}개 수정`, list];
+    case "bash": return [`명령 ${g.items.length}번 실행`, String(g.items[0].target || "").split("\n")[0].slice(0, 90)];
+    default: return [`${esc(g.items[0].tool)} ${g.items.length}번`, ""];
+  }
+}
+function simpleView(s, A){
+  const name = id => id === "main" ? "메인" : ((s.agents[id] || {}).type || "Sub Agent");
+  const steps = [], open = {};
+  for (const e of s.events) {
+    if (e.event === "UserPromptSubmit") steps.push({mark: true, t: e.t, agent: "main", text: "요청 받음"});
+    if (e.event === "SubagentStart") steps.push({mark: true, t: e.t, agent: e.agent, text: `${esc(e.agent_type)} 작업 시작`});
+    if (e.event === "SubagentStop") {
+      const a = s.agents[e.agent] || {};
+      steps.push({mark: true, t: e.t, agent: e.agent, text: `${esc(e.agent_type)} 보고 완료 · ${sec((a.end || e.t) - (a.start || e.t))}`});
+    }
+    if (e.event === "Stop") steps.push({mark: true, t: e.t, agent: "main", text: "답변 완료"});
+    if (e.event !== "PreToolUse") continue;
+    const c = cat(e.tool), last = open[e.agent];
+    const p = A.post[e.id], bad = (p && p.event === "PostToolUseFailure") ? "fail" : A.stuck.includes(e) ? "stuck" : "";
+    if (last && last === steps[steps.length - 1] && last.cat === c && !["deleg","skill"].includes(c)) {
+      last.items.push(e); if (bad) last[bad] = (last[bad] || 0) + 1; continue;
+    }
+    const g = {t: e.t, agent: e.agent, cat: c, items: [e]}; if (bad) g[bad] = 1;
+    steps.push(g); open[e.agent] = g;
+  }
+  const rowOf = g => {
+    const sub = g.agent !== "main";
+    if (g.mark) return `<div class="st mark${sub ? " sub" : ""}"><time>${sec(g.t - s.started)}</time><div class="tx"><span class="who">${esc(name(g.agent))}</span>${g.text}</div></div>`;
+    const [main, detailTxt] = sentence(g);
+    const bad = (g.fail ? `<span class="bad">실패 ${g.fail}</span>` : "") + (g.stuck ? `<span class="bad">막힘 ${g.stuck}</span>` : "");
+    return `<div class="st${sub ? " sub" : ""}"><time>${sec(g.t - s.started)}</time><div class="tx"><span class="who">${esc(name(g.agent))}</span>${main}${bad}${detailTxt ? `<small>${esc(detailTxt)}</small>` : ""}</div></div>`;
+  };
+  // Sub Agent는 한 줄 요약 + 펼치기
+  const subSteps = {};
+  for (const g of steps) if (g.agent !== "main") (subSteps[g.agent] ||= []).push(g);
+  const summary = id => {
+    const gs = (subSteps[id] || []).filter(g => !g.mark), cnt = {};
+    let fail = 0, stuck = 0;
+    for (const g of gs) { cnt[g.cat] = (cnt[g.cat] || 0) + g.items.length; fail += g.fail || 0; stuck += g.stuck || 0; }
+    const lab = {read: "파일 읽기", search: "검색", edit: "파일 수정", bash: "명령", deleg: "위임", skill: "Skill", todo: "할 일", other: "기타"};
+    return Object.entries(cnt).map(([k, v]) => `${lab[k]} ${v}`).join(" · ")
+      + (fail ? ` <span class="bad">실패 ${fail}</span>` : "") + (stuck ? ` <span class="bad">막힘 ${stuck}</span>` : "");
+  };
+  const done = new Set(), out = [];
+  for (const g of steps) {
+    if (g.agent === "main") { out.push(rowOf(g)); continue; }
+    if (done.has(g.agent)) continue;
+    done.add(g.agent);
+    const a = s.agents[g.agent] || {};
+    const dur = sec((a.end || (A.running ? Date.now()/1000 : A.last)) - (a.start || g.t));
+    out.push(`<details class="subg"><summary class="st sub"><time>${sec(g.t - s.started)}</time><div class="tx"><span class="who">${esc(name(g.agent))}</span>
+      <b>${a.status === "완료" ? "작업 완료" : "작업 중"}</b> · ${dur}<small>${summary(g.agent)} · 펼치기 ▾</small></div></summary>
+      ${subSteps[g.agent].map(rowOf).join("")}</details>`);
+  }
+  const rows = out.join("");
+  const ags = Object.values(s.agents).map(a => {
+    const u = (s.usage || {})[a.id] || {in:0, out:0, cr:0, cw:0, model:"-"};
+    const tok = u.in + u.out + u.cr + u.cw, share = A.total ? tok / A.total * 100 : 0;
+    const dur = (a.end || (A.running ? Date.now()/1000 : A.last)) - (a.start || s.started);
+    return `<div class="ag${a.id === "main" ? "" : " sub"}"><b>${esc(name(a.id))}</b><span>${esc((u.model || "-").replace("claude-", ""))}</span>
+      <div class="bar"><i style="width:${share.toFixed(1)}%"></i></div><em>${fmt(Math.round(tok / 1000))}k 토큰 · ${share.toFixed(0)}% · ${sec(dur)}</em></div>`;
+  }).join("");
+  const warn = tips(s, A);
+  return `<div class="big3"><div><b>${sec(A.elapsed)}</b><span>걸린 시간 · ${esc(s.status)}</span></div>
+      <div><b>${fmt(Math.round(A.total / 1000))}k</b><span>전체 토큰</span></div>
+      <div><b>${A.tools.length}번</b><span>도구 사용${A.fails.length ? ` · 실패 ${A.fails.length}` : ""}</span></div></div>
+    <div class="simple"><div class="story"><h3>누가 무엇을 했나</h3>${rows || '<div class="empty">아직 활동 없음</div>'}</div>
+      <div class="side"><h3>에이전트</h3>${ags}<div class="card tips" style="margin-top:14px"><h3>주의할 점</h3>${warn}</div></div></div>`;
+}
+
+function color(tool){ return DELEG.has(tool) ? C.o : EDIT.has(tool) ? C.n : READ.has(tool) ? C.g : C.b; }
+
+function timeline(s, A){
+  const ags = Object.values(s.agents).sort((a,b) => a.id === "main" ? -1 : b.id === "main" ? 1 : (a.start||0) - (b.start||0));
+  const W = 1200, X0 = 170, LH = 34, H = ags.length * LH + 28;
+  const t0 = s.started, t1 = Math.max(A.running ? Date.now()/1000 : A.last, t0 + 5);
+  const x = t => X0 + (W - X0 - 14) * (t - t0) / (t1 - t0);
+  const row = {}; ags.forEach((a,i) => row[a.id] = i);
+  let g = "";
+  ags.forEach((a,i) => {
+    const y = 6 + i*LH;
+    g += `<rect x="${X0}" y="${y}" width="${W-X0-14}" height="${LH-6}" fill="${i%2?"#fff":C.l}"/>`;
+    g += `<text x="${X0-10}" y="${y+LH/2}" text-anchor="end" class="lane">${esc(a.id==="main"?"메인":a.type)}${a.id!=="main"?` <tspan style="fill:${C.g};font-weight:400">${esc(a.id.slice(0,6))}</tspan>`:""}</text>`;
+    if (a.id !== "main" && a.start) {
+      const xe = x(a.end || t1);
+      g += `<rect x="${x(a.start)}" y="${y+3}" width="${Math.max(2, xe - x(a.start))}" height="${LH-12}" rx="5" fill="${C.o}" fill-opacity=".14" stroke="${C.o}" stroke-opacity=".5"/>`;
+    }
+  });
+  for (const e of A.tools) {
+    const r = row[e.agent] ?? 0, y = 6 + r*LH + (LH-6)/2, p = A.post[e.id];
+    const bad = (p && p.event === "PostToolUseFailure") || A.stuck.includes(e);
+    const col = bad ? C.r : color(e.tool);
+    if (p && p.t - e.t > 0.3) g += `<rect x="${x(e.t)}" y="${y-2}" width="${Math.max(1, x(p.t)-x(e.t))}" height="4" fill="${col}" fill-opacity=".45"/>`;
+    const tip = `${e.tool} ${e.target}${p&&p.ms!=null?` · ${(p.ms/1000).toFixed(1)}초`:""}${p&&p.error?` · ${p.error}`:""}`;
+    g += `<circle cx="${x(e.t)}" cy="${y}" r="${DELEG.has(e.tool)?7:4.5}" fill="${col}"><title>${esc(tip)}</title></circle>`;
+  }
+  if (A.running) g += `<line x1="${x(t1)}" x2="${x(t1)}" y1="2" y2="${H-24}" stroke="${C.o}" stroke-width="2"/>`;
+  g += `<text x="${X0}" y="${H-6}" class="ax">0초</text><text x="${W-14}" y="${H-6}" text-anchor="end" class="ax">${sec(t1-t0)}</text>`;
+  return `<svg viewBox="0 0 ${W} ${H}">${g}</svg>`;
+}
+
+const LANE_COL = ["#1F3A5F", "#F28C28", "#4B5D73", "#E0A45C", "#7D8DA3", "#B5651D", "#2F6690"];
+function agentColor(s, id){ const ids = Object.keys(s.agents); return LANE_COL[Math.max(0, ids.indexOf(id)) % LANE_COL.length]; }
+
+function tokenChart(s, A){
+  const ser = s.usage_series || [];
+  if (!ser.length) return '<div class="empty" style="padding:20px">토큰 기록을 기다리는 중</div>';
+  const W = 760, H = 240, X0 = 64, Y0 = 210;
+  const t0 = s.started, t1 = Math.max(A.running ? Date.now()/1000 : A.last, t0 + 5);
+  const total = {}; let mx = 1;
+  for (const [, a, v] of ser) { total[a] = v; mx = Math.max(mx, v); }
+  const x = t => X0 + (W - X0 - 16) * Math.min(1, Math.max(0, ((t || t0) - t0) / (t1 - t0)));
+  const y = v => Y0 - (Y0 - 14) * v / mx;
+  let g = "";
+  for (const f of [0, .5, 1]) g += `<line x1="${X0}" x2="${W-16}" y1="${y(mx*f)}" y2="${y(mx*f)}" stroke="#EEF1F5" stroke-width="2"/><text x="${X0-8}" y="${y(mx*f)+4}" text-anchor="end" class="ax">${fmt(Math.round(mx*f/1000))}k</text>`;
+  const by = {};
+  for (const [t, a, v] of ser) (by[a] ||= []).push([t, v]);
+  for (const [a, pts] of Object.entries(by)) {
+    const col = agentColor(s, a);
+    let d = `M${x(pts[0][0])} ${y(0)}`;
+    for (const [t, v] of pts) d += ` L${x(t)} ${y(v)}`;
+    if (A.running || s.agents[a]?.status !== "완료") d += ` L${x(t1)} ${y(pts[pts.length-1][1])}`;
+    g += `<path d="${d}" fill="none" stroke="${col}" stroke-width="3.5" stroke-linejoin="round"/>`;
+    const [lt, lv] = pts[pts.length-1];
+    const name = a === "main" ? "메인" : (s.agents[a]?.type || "Sub");
+    g += `<text x="${Math.min(x(lt) + 6, W - 120)}" y="${y(lv) - 6}" font-size="12" font-weight="700" fill="${col}">${esc(name)} ${fmt(Math.round(lv/1000))}k</text>`;
+  }
+  g += `<text x="${X0}" y="${H-6}" class="ax">0초</text><text x="${W-16}" y="${H-6}" text-anchor="end" class="ax">${sec(t1-t0)}</text>`;
+  return `<svg viewBox="0 0 ${W} ${H}">${g}</svg>`;
+}
+
+function toolMix(s, A){
+  const cat = t => DELEG.has(t) ? "위임 · Skill" : EDIT.has(t) ? "수정" : READ.has(t) ? "읽기 · 검색" : "명령 · 기타";
+  const cols = {"읽기 · 검색": C.g, "수정": C.n, "명령 · 기타": C.b, "위임 · Skill": C.o};
+  const rows = Object.values(s.agents).map(a => {
+    const cnt = {}; let n = 0;
+    for (const e of A.tools) if (e.agent === a.id) { const c = cat(e.tool); cnt[c] = (cnt[c]||0) + 1; n++; }
+    const fail = A.fails.filter(e => e.agent === a.id).length;
+    const segs = Object.keys(cols).filter(c => cnt[c]).map(c => `<span title="${c} ${cnt[c]}" style="flex:${cnt[c]};background:${cols[c]}">${cnt[c] > 1 ? cnt[c] : ""}</span>`).join("");
+    return `<div class="mix"><b>${esc(a.id==="main"?"메인":a.type)}</b><div class="mbar">${segs || '<span style="flex:1;background:#EEF1F5"></span>'}</div><i>${n}회${fail?` · <em>실패 ${fail}</em>`:""}</i></div>`;
+  }).join("");
+  const leg = Object.entries(cols).map(([k,v]) => `<span><i style="background:${v}"></i>${k}</span>`).join("");
+  return rows + `<div class="legend">${leg}</div>`;
+}
+
+function agentTable(s, A){
+  const rows = Object.values(s.agents).map(a => {
+    const u = (s.usage||{})[a.id] || {in:0,out:0,cr:0,cw:0,calls:0,model:"-"};
+    const n = A.tools.filter(e => e.agent === a.id).length;
+    const dur = ((a.end || (A.running ? Date.now()/1000 : A.last)) - (a.start || s.started));
+    return `<tr><td>${esc(a.id==="main"?"메인":a.type)}</td><td>${esc((u.model||"-").replace("claude-",""))}</td><td>${esc(a.status||"")}</td><td>${sec(dur)}</td><td>${n}</td><td>${fmt(u.in)}</td><td>${fmt(u.cr)}</td><td>${fmt(u.cw)}</td><td>${fmt(u.out)}</td><td><b>${fmt(u.in+u.out+u.cr+u.cw)}</b></td></tr>`;
+  }).join("");
+  return `<table><tr><th>에이전트</th><th>모델</th><th>상태</th><th>시간</th><th>도구</th><th>입력(새)</th><th>캐시 읽기</th><th>캐시 쓰기</th><th>출력</th><th>합계</th></tr>${rows}</table>`;
+}
+
+function tips(s, A){
+  const t = [];
+  for (const [k,n] of A.dup.slice(0,3)) t.push(`같은 파일을 ${n}번 읽음 · ${esc(k.split("|")[1].split("/").pop())}`);
+  if (A.fails.length) t.push(`실패한 도구 호출 ${A.fails.length}건 · ${esc(A.fails[A.fails.length-1].error.split("\n")[0].slice(0,80))}`);
+  if (A.stuck.length) t.push(`응답 없이 넘어간 호출 ${A.stuck.length}건 (Hook 차단 · 권한 거부일 수 있음)`);
+  for (const e of A.big.slice(0,2)) t.push(`큰 도구 결과 ${fmt(e.size)}자 · ${esc(e.tool)} ${esc(e.target.split("/").pop().slice(0,50))} → 컨텍스트를 많이 차지`);
+  if (A.total > 50000 && A.hit < .6) t.push(`캐시 적중률 ${(A.hit*100).toFixed(0)}% · 앞부분(지침 · 도구 목록)이 자주 바뀌는지 확인`);
+  const slow = Object.values(A.post).filter(e => (e.ms||0) > 30000);
+  if (slow.length) t.push(`30초 넘게 걸린 도구 ${slow.length}건 · 가장 긴 것 ${(Math.max(...slow.map(e=>e.ms))/1000).toFixed(0)}초`);
+  if (A.total && A.subTok / A.total > .6) t.push(`토큰의 ${(A.subTok/A.total*100).toFixed(0)}%가 Sub Agent · 위임 범위가 너무 넓은지 확인`);
+  return t.length ? t.map(x => `<div>${x}</div>`).join("") : `<div class="ok">눈에 띄는 낭비 없음</div>`;
+}
+
+function feed(s, A){
+  return s.events.filter(e => e.event !== "PreToolUse").slice(-60).reverse().map(e => {
+    const when = sec(e.t - s.started);
+    const who = e.agent === "main" ? "메인" : e.agent_type;
+    let what = e.event, tg = e.target || "", ms = e.ms != null ? (e.ms/1000).toFixed(1) + "초" : "";
+    if (e.event === "PostToolUse") what = e.tool;
+    if (e.event === "PostToolUseFailure") { what = `<span class="bad">✕ ${esc(e.tool)}</span>`; tg = e.error; }
+    if (e.event === "SubagentStart") what = `<b style="color:${C.o}">▶ 시작</b>`;
+    if (e.event === "SubagentStop") what = `<b style="color:${C.o}">■ 완료</b>`;
+    if (e.event === "Stop") what = "응답 끝";
+    if (e.event === "UserPromptSubmit") what = "요청 받음";
+    return `<div><span>${when}</span><span>${esc(who)}</span><span class="tg">${e.event.startsWith("Post") && !e.error ? esc(what) + " · " : what.startsWith("<") ? what + " " : esc(what) + " "}${esc(tg)}</span><span>${ms}</span></div>`;
+  }).join("");
+}
+
+boot();
+</script>
+</body>
+</html>

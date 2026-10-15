@@ -1,0 +1,24 @@
+{
+  "_설명": "고정 과제 5개. 레버끼리 공정하게 비교하려고 바꾸지 않는다. 바꾸면 기준선(baseline)부터 다시 잰다.",
+  "t1": {
+    "name": "분류",
+    "prompt": "다음 사내 문의를 IT/구매/인사/보안/기타 중 하나로만 답해. 한 단어.\n\n문의: 재택 중인데 VPN 이 안 붙어요"
+  },
+  "t2": {
+    "name": "추출",
+    "prompt": "다음 사양서에서 품목·규격·재질·수량·단위를 JSON 배열로 뽑아.\n\n[자재 사양서] 문서번호 HB-SPEC-0102 / 설비: 연주 2기 세그먼트\n※ 가상 회사 「한빛스틸」 실습용 가상 문서\n\n| No | 품목 | 규격     | 재질   | 수량 | 단위 |\n|----|------|----------|--------|------|------|\n| 1  | 볼트 | M20 x 80 | SCM435 | 200  | EA   |\n| 2  | 너트 | M20      | SS400  | 200  | EA   |\n| 3  | 와셔 | M20      | SS400  | 400  | EA   |\n\n비고: 볼트는 아연도금, 정기 수리(3월) 전 납품\n"
+  },
+  "t3": {
+    "name": "요약",
+    "prompt": "다음 사내 FAQ 를 신입 사원용으로 요약해.\n\n# IT 헬프데스크 FAQ\n> ※ 가상 회사 「한빛스틸」의 실습용 가상 규정입니다.\n\n- **IT-1** 비밀번호 초기화: 사내 포털 「계정 셀프서비스」에서 OTP 본인 인증 후 직접 초기화한다. 헬프데스크는 비밀번호를 전화·메일·메신저로 알려주지 않는다.\n- **IT-2** 계정 잠금: 로그인 5회 실패 시 30분 동안 잠기고 30분 뒤 자동으로 풀린다. 급하면 헬프데스크(내선 1234)에 사번으로 해제를 요청한다.\n- **IT-3** 소프트웨어 설치: 승인 목록에 있는 SW 는 「SW 센터」에서 직접 설치한다. 목록에 없는 SW 는 팀장 승인 후 IT 서비스 요청서를 내며, 처리 기간은 영업일 3일이다.\n- **IT-4** 노트북 교체: 지급 후 4년이 지났거나 수리 불가 판정을 받으면 교체한다. IT 서비스 요청서로 신청한다.\n- **IT-5** VPN 접속 장애: 재택 근무 시 사내 VPN 앱을 쓴다. 접속이 안 되면 앱을 재설치한 뒤 다시 시도하고, 계속 안 되면 헬프데스크(내선 1234)에 문의한다.\n- **IT-6** 메일 용량: 기본 50GB 이며 증설은 팀장 승인이 필요하다. 최대 100GB 까지 늘릴 수 있다.\n"
+  },
+  "t4": {
+    "name": "코드 설명",
+    "prompt": "다음 코드의 remove() 에 있는 문제를 설명하고 고친 코드를 보여줘.\n\n```python\n\"\"\"자재 재고 관리 (실습용 가상 앱).\"\"\"\n\n\nclass Inventory:\n    def __init__(self):\n        self._stock = {}\n\n    def add(self, item, qty):\n        \"\"\"입고. qty 는 1 이상.\"\"\"\n        if qty <= 0:\n            raise ValueError(\"수량은 1 이상이어야 합니다\")\n        self._stock[item] = self._stock.get(item, 0) + qty\n\n    def remove(self, item, qty):\n        \"\"\"출고. 재고보다 많이 꺼내면 ValueError, 재고는 그대로.\"\"\"\n        if qty <= 0:\n            raise ValueError(\"수량은 1 이상이어야 합니다\")\n        current = self._stock.get(item, 0)\n        self._stock[item] = current - qty\n\n    def stock(self, item):\n        return self._stock.get(item, 0)\n\n    def low_stock(self, minimums):\n        \"\"\"{품목: 최소 재고} 를 받아 최소 재고보다 적은 품목 목록 (이름순).\"\"\"\n        return sorted(item for item, minimum in minimums.items() if self.stock(item) < minimum)\n```"
+  },
+  "t5": {
+    "name": "테스트 실행",
+    "prompt": "이 폴더에서 python -m unittest 를 실행하고 실패한 테스트 이름과 원인을 한 줄씩 적어.",
+    "bash": true
+  }
+}

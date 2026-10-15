@@ -1,0 +1,6 @@
+[Material Spec] Doc No. HB-SPEC-733
+※ 가상 회사 「한빛스틸」 실습용 가상 문서
+
+Item: 베어링   Size: 6312ZZ   Material: SUJ2   Q'ty: 8 EA
+Item: 볼트   Size: M20 x 80   Material: SCM435   Q'ty: 3 EA
+

@@ -1,0 +1,421 @@
+{
+ "a_bloated": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 2600,
+  "duration_api_ms": 2250,
+  "num_turns": 1,
+  "result": "IT",
+  "session_id": "620eff91-ca64-5bf8-8efc-461591328f3f",
+  "total_cost_usd": 0.034759,
+  "usage": {
+   "input_tokens": 4,
+   "cache_creation_input_tokens": 8350,
+   "cache_read_input_tokens": 11200,
+   "output_tokens": 5,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 5,
+    "cacheReadInputTokens": 11200,
+    "cacheCreationInputTokens": 8350,
+    "webSearchRequests": 0,
+    "costUSD": 0.034759,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "10d47b33-a5f4-4be2-944d-f96b7f739f0c"
+ },
+ "a_lean": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 2100,
+  "duration_api_ms": 1750,
+  "num_turns": 1,
+  "result": "IT",
+  "session_id": "f26dd456-1f13-50c3-9029-355b3a8d6f2c",
+  "total_cost_usd": 0.007272,
+  "usage": {
+   "input_tokens": 4,
+   "cache_creation_input_tokens": 1020,
+   "cache_read_input_tokens": 11200,
+   "output_tokens": 5,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 5,
+    "cacheReadInputTokens": 11200,
+    "cacheCreationInputTokens": 1020,
+    "webSearchRequests": 0,
+    "costUSD": 0.007272,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "2f0337d1-dbf5-4ab2-af68-5e93b46b5e10"
+ },
+ "b_whole": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 38000,
+  "duration_api_ms": 37650,
+  "num_turns": 5,
+  "result": "P-207 정지 시간 상위 3건: 2026-03-21 125분(돌발 정지), 2026-03-27 123분(돌발 정지), 2026-05-11 115분(돌발 정지)",
+  "session_id": "92b5870d-7176-59ad-8046-c6897b0d443b",
+  "total_cost_usd": 0.19341,
+  "usage": {
+   "input_tokens": 40,
+   "cache_creation_input_tokens": 41200,
+   "cache_read_input_tokens": 98300,
+   "output_tokens": 620,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 40,
+    "outputTokens": 620,
+    "cacheReadInputTokens": 98300,
+    "cacheCreationInputTokens": 41200,
+    "webSearchRequests": 0,
+    "costUSD": 0.19341,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "663f7938-dd74-49c8-aa4b-ffac350ef486"
+ },
+ "b_grep": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 9100,
+  "duration_api_ms": 8750,
+  "num_turns": 2,
+  "result": "P-207 정지 시간 상위 3건: 2026-03-21 125분(돌발 정지), 2026-03-27 123분(돌발 정지), 2026-05-11 115분(돌발 정지)",
+  "session_id": "6eb19722-87e4-5a4e-9bb0-2d56d7d6baa1",
+  "total_cost_usd": 0.018411,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 2100,
+   "cache_read_input_tokens": 24500,
+   "output_tokens": 210,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 210,
+    "cacheReadInputTokens": 24500,
+    "cacheCreationInputTokens": 2100,
+    "webSearchRequests": 0,
+    "costUSD": 0.018411,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "2eee146d-c5f6-44d0-8450-e9c8d96289f9"
+ },
+ "c_inline": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 52000,
+  "duration_api_ms": 51650,
+  "num_turns": 6,
+  "result": "요약: 펌프 322건 중 돌발 정지 47건, 진동 상승·누설이 반복. 계획: 1) P- 설비 베어링 진동 측정 주 1회 2) 씰 예비품 확보 …",
+  "session_id": "c7e8274d-b2d1-563b-9612-0f25588f13e8",
+  "total_cost_usd": 0.12105,
+  "usage": {
+   "input_tokens": 60,
+   "cache_creation_input_tokens": 18200,
+   "cache_read_input_tokens": 120400,
+   "output_tokens": 1100,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 60,
+    "outputTokens": 1100,
+    "cacheReadInputTokens": 120400,
+    "cacheCreationInputTokens": 18200,
+    "webSearchRequests": 0,
+    "costUSD": 0.12105,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "b73955c9-b851-4837-81db-053ade912725"
+ },
+ "c_subagent": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 41000,
+  "duration_api_ms": 40650,
+  "num_turns": 2,
+  "result": "요약: 펌프 322건 중 돌발 정지 47건, 진동 상승·누설이 반복. 계획: 1) P- 설비 베어링 진동 측정 주 1회 2) 씰 예비품 확보 …",
+  "session_id": "5e04e72e-8919-502a-bcd1-fd0d64c7e9aa",
+  "total_cost_usd": 0.053735,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 3200,
+   "cache_read_input_tokens": 25100,
+   "output_tokens": 700,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 700,
+    "cacheReadInputTokens": 25100,
+    "cacheCreationInputTokens": 3200,
+    "webSearchRequests": 0,
+    "costUSD": 0.03006,
+    "contextWindow": 200000
+   },
+   "claude-haiku-5-5": {
+    "inputTokens": 30,
+    "outputTokens": 900,
+    "cacheReadInputTokens": 40200,
+    "cacheCreationInputTokens": 12100,
+    "webSearchRequests": 0,
+    "costUSD": 0.023675,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "d1cda1be-9d9d-431b-a897-f1d7c8214846"
+ },
+ "d_long": [
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 8000,
+   "duration_api_ms": 7650,
+   "num_turns": 2,
+   "result": "(이어온 1턴 답)",
+   "session_id": "618f88e3-d355-5243-81b6-ef1283e17fcd",
+   "total_cost_usd": 0.017178,
+   "usage": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 2400,
+    "cache_read_input_tokens": 11200,
+    "output_tokens": 320,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 6,
+     "outputTokens": 320,
+     "cacheReadInputTokens": 11200,
+     "cacheCreationInputTokens": 2400,
+     "webSearchRequests": 0,
+     "costUSD": 0.017178,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "bb4dfe9c-4a30-4bc3-b6e8-7d8d277ac0f2"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 8000,
+   "duration_api_ms": 7650,
+   "num_turns": 2,
+   "result": "(이어온 2턴 답)",
+   "session_id": "618f88e3-d355-5243-81b6-ef1283e17fcd",
+   "total_cost_usd": 0.016383,
+   "usage": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 2100,
+    "cache_read_input_tokens": 14300,
+    "output_tokens": 280,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 6,
+     "outputTokens": 280,
+     "cacheReadInputTokens": 14300,
+     "cacheCreationInputTokens": 2100,
+     "webSearchRequests": 0,
+     "costUSD": 0.016383,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "1dda5a39-b547-4239-9f1a-98f0b5f47018"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 8000,
+   "duration_api_ms": 7650,
+   "num_turns": 2,
+   "result": "(이어온 3턴 답)",
+   "session_id": "618f88e3-d355-5243-81b6-ef1283e17fcd",
+   "total_cost_usd": 0.015588,
+   "usage": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 1800,
+    "cache_read_input_tokens": 17400,
+    "output_tokens": 240,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 6,
+     "outputTokens": 240,
+     "cacheReadInputTokens": 17400,
+     "cacheCreationInputTokens": 1800,
+     "webSearchRequests": 0,
+     "costUSD": 0.015588,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "aa4e673f-ee53-4131-9315-b9ceb1015d25"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 8000,
+   "duration_api_ms": 7650,
+   "num_turns": 2,
+   "result": "(이어온 4턴 답)",
+   "session_id": "618f88e3-d355-5243-81b6-ef1283e17fcd",
+   "total_cost_usd": 0.014793,
+   "usage": {
+    "input_tokens": 6,
+    "cache_creation_input_tokens": 1500,
+    "cache_read_input_tokens": 20500,
+    "output_tokens": 200,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 6,
+     "outputTokens": 200,
+     "cacheReadInputTokens": 20500,
+     "cacheCreationInputTokens": 1500,
+     "webSearchRequests": 0,
+     "costUSD": 0.014793,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "4a7f723c-f85f-43c1-9351-65a98d716425"
+  },
+  {
+   "type": "result",
+   "subtype": "success",
+   "is_error": false,
+   "duration_ms": 3100,
+   "duration_api_ms": 2750,
+   "num_turns": 1,
+   "result": "IT 서비스 요청서로 신청합니다 (IT-4).",
+   "session_id": "618f88e3-d355-5243-81b6-ef1283e17fcd",
+   "total_cost_usd": 0.00989,
+   "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 610,
+    "cache_read_input_tokens": 23900,
+    "output_tokens": 28,
+    "server_tool_use": {
+     "web_search_requests": 0
+    },
+    "service_tier": "standard"
+   },
+   "modelUsage": {
+    "claude-sonnet-5-5": {
+     "inputTokens": 4,
+     "outputTokens": 28,
+     "cacheReadInputTokens": 23900,
+     "cacheCreationInputTokens": 610,
+     "webSearchRequests": 0,
+     "costUSD": 0.00989,
+     "contextWindow": 200000
+    }
+   },
+   "permission_denials": [],
+   "uuid": "4ec70735-750e-432b-98ff-7b7aad9ff950"
+  }
+ ],
+ "d_fresh": {
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "duration_ms": 2400,
+  "duration_api_ms": 2050,
+  "num_turns": 1,
+  "result": "IT 서비스 요청서로 신청합니다 (IT-4).",
+  "session_id": "d35580b4-58b1-56d2-8c90-6a36d49c473c",
+  "total_cost_usd": 0.007617,
+  "usage": {
+   "input_tokens": 4,
+   "cache_creation_input_tokens": 1020,
+   "cache_read_input_tokens": 11200,
+   "output_tokens": 28,
+   "server_tool_use": {
+    "web_search_requests": 0
+   },
+   "service_tier": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5-5": {
+    "inputTokens": 4,
+    "outputTokens": 28,
+    "cacheReadInputTokens": 11200,
+    "cacheCreationInputTokens": 1020,
+    "webSearchRequests": 0,
+    "costUSD": 0.007617,
+    "contextWindow": 200000
+   }
+  },
+  "permission_denials": [],
+  "uuid": "fae4bb9a-0efe-42e4-9503-be68c4bbab54"
+ }
+}
